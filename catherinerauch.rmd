@@ -1,0 +1,43 @@
+---
+title: "Catherine Rauch"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Education
+
+- University of California at Santa Barbara (UCSB) **2019 - 2021**
+
+    Statistics and Data Science (BS) 
+
+- Santa Rosa Junior College (SRJC) **2017  - 2019**
+
+    Economics(AA-T), Business Administration(AS-T) and Mathematics(AS-T)
+
+
+# Relevant Coursework/Experience
+
+### UCSB
+
+- PSTAT 126 REGRESSION ANALYSIS
+
+    Use of R in Linear and multiple regression, including analysis of residuals, transformations, and variable/model selection
+
+- PSTAT 195  DATA SCIENCE APPLICATIONS AND ANALYSIS
+
+    Use of Python in Jupyter Notebook (pandas, numpy, altair) for data retrieval, analysis, visualization, and report generation.
+
+- PSTAT 174 TIME SERIES
+
+    Use of R in examining, estimating, diagnostic checking, and forecasting of stationary/ non-stationary models including seasonal time series and ARMA models.
+
+
+### SRJC
+
+- CS 61.11A/B	MS EXCEL
+ 
+    Creating, editing, formatting Excel worksheets, workbooks, charts , web pages, using functions and formulas, macros and PivotTables/PivotCharts.
