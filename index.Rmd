@@ -4,7 +4,7 @@ title: "About Me"
 
 `r library(icon)`
 <center>
-# Hi, I'm Catherine `r fa('exclamation', color = "blue", size = 2)`
+# Hi, I'm Catherine `r fa('exclamation', color = "blue", size = 1)`
 
 </center>
 

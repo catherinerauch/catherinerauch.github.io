@@ -4,13 +4,13 @@ navbar:
   title: "Catherine's Website"
   left:
     - text: "Home"
-      icon: fa_home( color = "blue", size = 1)
+      icon: fa-home
       href: index.html
     - text: "GIS Work"
-      icon: fa_grav(color = "blue", size = 1)
+      icon: fa-grav
       href: geog176A.html
-    - text: "CV"
-      icon: fa_info( color = "blue", size = 1)
+    - text: " CV"
+      icon: fa-info
       href: catherinerauch.html
 output:
   html_document:
