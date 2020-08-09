@@ -1,0 +1,14 @@
+name: "personal-website"
+output_dir: "."
+navbar:
+  title: "Catherine's Website"
+  left:
+    - text: "Home"
+      icon: fa("home", color = "blue", size = 5)
+      href: index.html
+    - text: "GIS Work"
+      icon: fa("grav", color = "blue", size = 5)
+      href: geog176A.html
+output:
+  html_document:
+    theme: yeti

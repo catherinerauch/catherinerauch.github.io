@@ -1,0 +1,16 @@
+---
+title: "About Me"
+---
+  
+<center>
+# Hi, I'm Catherine.
+
+</center>
+
+`r fa("exclamation-circle")` I'm in my last year pursuing a Bachelor’s Degree in Statistics and Data Science at the University of California at Santa Barbara (UCSB).  I am currently exploring a minor in Spatial Studies.
+
+I enjoy open water swimming, dogs and riding my bike to class. I dearly miss being on Campus.
+
+I also enjoy tailoring my projects to my interests, which include photography, traveling, marine life, and sports.
+
+![One of many photos snapped while traveling abroad](img/OsakaCaslteLookout.jpg)

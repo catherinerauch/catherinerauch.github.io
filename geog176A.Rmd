@@ -1,0 +1,11 @@
+---
+title: "Projects"
+---
+
+In summer of 2020 I took a GIS course based in R. Here is the collection of links to code written: 
+
+## [Building a project website](https://github.com/catherinerauch/catherinerauch.github.io)
+
+- In this assignment we built a user site with GitHub
+- It includes a default page ('About Me') and a projects page (repo with access to code) 
+- Use of themes and icons on a webpage was explored
