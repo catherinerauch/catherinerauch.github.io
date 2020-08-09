@@ -17,4 +17,4 @@ navbar:
       href: https://github.com/catherinerauch
 output:
   html_document:
-    theme: yeti
+    theme: lumen
