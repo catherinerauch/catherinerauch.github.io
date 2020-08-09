@@ -12,6 +12,9 @@ navbar:
     - text: " CV"
       icon: fa-info
       href: catherinerauch.html
+    - text: "Github"
+      icon: fa-github
+      href: https://github.com/catherinerauch
 output:
   html_document:
     theme: yeti
