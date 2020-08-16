@@ -3,17 +3,20 @@ title: "About Me"
 ---
 
 `r library(icon)`
-<center>
-## Hi, I'm Catherine `r fa('exclamation', color = "black", size = 1)`
 
 </center>
+#### I'm in my last year pursuing a Bachelor’s Degree in Statistics and Data Science at the University of California at Santa Barbara (UCSB).  I am currently exploring a minor in Spatial Studies.
+</center>
 
-I'm in my last year pursuing a Bachelor’s Degree in Statistics and Data Science at the University of California at Santa Barbara (UCSB).  I am currently exploring a minor in Spatial Studies.
 
-I enjoy open water swimming, dogs and riding my bike to class. I dearly miss being on Campus.
-
-I also enjoy tailoring my projects to my interests, which include photography, traveling, marine life, and sports.
 
 ```{r, echo=FALSE, out.width="49%",out.height="20%",fig.cap="   ",fig.show='hold',fig.align='center'}
 knitr::include_graphics(c("img/OsakaCastle.jpg","img/JapaneseMaple.jpg"))
 ``` 
+
+```{r text, include = FALSE}
+#### I also enjoy tailoring my projects to my interests, which include photography, traveling, marine life, and sports.
+
+#### I enjoy open water swimming, dogs and riding my bike to class. I dearly miss being on Campus.
+
+```
