@@ -4,23 +4,19 @@ title: "About Me"
 
 `r library(icon)`
 
-</center>
+<br>
+
 I'm in my last year pursuing a Bachelor’s Degree in Statistics and Data Science at the University of California at Santa Barbara (UCSB).  I am currently exploring a minor in [Spatial Studies](http://spatial.ucsb.edu/academic-minor/).
-</center>
+<br>
 
-In my free time, I moonlight as an amateur photographer and travel photographing landscapes and marine life.
 
-```{r, echo=FALSE, out.width="49%",out.height="20%",fig.cap="   ",fig.show='hold',fig.align='center'}
+```{r, echo=FALSE, out.width="49%",out.height="20%",fig.cap="   ",fig.show='hold',fig.align='left'}
 knitr::include_graphics(c("img/OsakaCastle.jpg","img/JapaneseMaple.jpg"))
 ``` 
+In my free time I travel [photographing](https://vsco.co/catttrauc/gallery) landscapes and marine life.
+<br>
 
 Born and raised in Northern California, I'm a big sports fan and religiously follow the San Jose Sharks. But, I can also be spotted at Warriors and Giants games.
+<br>
 
 I enjoy open water swimming and tailoring my projects to my interests, take a [look](https://catherinerauch.github.io/projects.html)!
-
-```{r text, include = FALSE}
-#### I also enjoy tailoring my projects to my interests, which include photography, traveling, marine life, and sports.
-
-#### I enjoy open water swimming, dogs and riding my bike to class. I dearly miss being on Campus.
-
-```

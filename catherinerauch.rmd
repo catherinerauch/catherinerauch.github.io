@@ -7,6 +7,8 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+<br>
+
 # Education
 
 - University of California at Santa Barbara (UCSB) **2019 - 2021**
@@ -17,6 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
     Economics(AA-T), Business Administration(AS-T) and Mathematics(AS-T)
 
+<br>
 
 # Relevant Coursework/Experience
 

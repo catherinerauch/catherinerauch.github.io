@@ -1,7 +1,7 @@
 name: "personal-website"
 output_dir: "."
 navbar:
-  title: "Catherine Rauch"
+  title: ""
   left:
     - text: "Home"
       icon: fa-home
