@@ -1,5 +1,12 @@
+---
+title: "GIS work"
+---
 
-In summer of 2020 I took a GIS course based in R. Here is the collection of links: 
+<space>
+
+#### In summer 2020, I took an R based GIS course - Geography 176A (Intro to Geographic Information Systems and Science) 
+
+Here is the collection of links for completed assignments: 
 
 ## [Building a project website](https://github.com/catherinerauch/catherinerauch.github.io)
 
@@ -7,7 +14,7 @@ In summer of 2020 I took a GIS course based in R. Here is the collection of link
 - It includes a default page ('About Me') and a projects page (repo with access to code) 
 - Use of themes and icons on a webpage was explored
 
-## [Analysis of COVID-19 Data](https://catherinerauch.github.io/geog-176A-labs/lab-02.html)
+## [Analysis of COVID-19 data](https://catherinerauch.github.io/geog-176A-labs/lab-02.html)
 
 - In this lab we practiced data wrangling and visualization with real-time COVID-19 data
 - It includes an in-depth look at daily new case data as well as cumulative data at State and County levels

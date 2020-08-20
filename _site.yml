@@ -6,18 +6,18 @@ navbar:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: " CV"
-      icon: fa-info
-      href: catherinerauch.html
     - text: "GIS"
       icon: fa-grav
       href: geog176A.html
     - text: "Projects"
       icon: fa-folder-open
       href: projects.html
+    - text: " CV"
+      icon: fa-info
+      href: catherinerauch.html
     - text: "Github"
       icon: fa-github
       href: https://github.com/catherinerauch
 output:
   html_document:
-    theme: lumen
+    theme: spacelab

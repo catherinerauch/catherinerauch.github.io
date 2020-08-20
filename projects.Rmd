@@ -1,3 +1,32 @@
 ---
 title: "Projects"
 ---
+<br>
+<br>
+
+
+###Time Series Analysis and Forecast of Southern Resident Killer Whale (SRKW) Sightings
+```{r, echo=FALSE, out.width="45%",out.height="20%",fig.cap="   ",fig.show='hold',fig.align='left'}
+knitr::include_graphics(c("img/killerwhales3.jpg", "img/whaleforecast.png"))
+``` 
+
+The goal of this report was to compile sighting data of the SRKW's in the Salish Sea, and to forecast future sightings. Raw data was compiled from [the Whale Museums' Hotline](https://hotline.whalemuseum.org/). A total of 16,722 southern resident observations were grouped by month from year 2008 to 2015. After appropriate transformation and differencing was applied, multiple SARIMA  models were fit and diagnostics preformed to choose the best. This model was then used to forecast the next 6 months of sightings.
+
+<br>
+<br>
+
+### Exploratory Analysis of Shark Tank Data
+```{r, echo=FALSE, out.width="49%",out.height="100%",fig.cap="   ",fig.show='hold',fig.align='left'}
+knitr::include_graphics(c("img/visualization (12).png", "img/visualization (10).png"))
+```
+
+This report uses 10 seasons of “Shark Tank” to examine the breakdown of pitches, how these changed over time,and how the famous millionaire Sharks spend their money. Data manipulation such as grouping and aggregating was done with Pandas and Numpy while visuals and regression was done with Altair. 
+
+<br>
+<br>
+
+### Regression Analysis of Sleep in Mammalian Species
+```{r, echo=FALSE, out.width="75%",out.height="75%",fig.cap="   ",fig.show='hold',fig.align='left'}
+knitr::include_graphics(c("img/mammaplot.png"))
+```
+This project investigates the link between brain/body weight, life span, gestation time, time spent sleeping/dreaming, and predation/danger indices for 62 species of mammals. The raw data was cleaned and relationships were explored in a scatterplot matrix. While attempting to determine which variables were significant in predicating Time Spent Dreaming, high influence and leverage points were found and multiple models were fit before selecting the best with AIC. To predict total time spent dreaming step-wise regression was preformed.
