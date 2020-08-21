@@ -5,7 +5,7 @@ title: "Projects"
 <br>
 
 
-### Time Series Analysis and Forecast of Southern Resident Killer Whale (SRKW) Sightings
+### Time Series Analysis and Forecast of Southern Resident Killer Whale Sightings
 ```{r, echo=FALSE, out.width="45%",out.height="20%",fig.cap="   ",fig.show='hold',fig.align='left'}
 knitr::include_graphics(c("img/killerwhales3.jpg", "img/whaleforecast.png"))
 ``` 
