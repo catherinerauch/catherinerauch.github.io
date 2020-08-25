@@ -25,10 +25,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### UCSB
 
-- PSTAT 126 REGRESSION ANALYSIS
-
-    Use of R in Linear and multiple regression, including analysis of residuals, transformations, and variable/model selection
-
 - PSTAT 195  DATA SCIENCE APPLICATIONS AND ANALYSIS
 
     Use of Python in Jupyter Notebook (pandas, numpy, altair) for data retrieval, analysis, visualization, and report generation.
@@ -36,6 +32,10 @@ knitr::opts_chunk$set(echo = TRUE)
 - PSTAT 174 TIME SERIES
 
     Use of R in examining, estimating, diagnostic checking, and forecasting of stationary/ non-stationary models including seasonal time series and ARMA models.
+    
+- PSTAT 126 REGRESSION ANALYSIS
+
+    Use of R in Linear and multiple regression, including analysis of residuals, transformations, and variable/model selection
 
 
 ### SRJC

@@ -21,3 +21,5 @@ Here is the collection of links for completed assignments:
 - In this lab we practiced data wrangling and visualization with real-time COVID-19 data
 - It includes an in-depth look at daily new case data as well as cumulative data at State and County levels
 - Pipes and other tidyverse tools were used to manipulate data and present it as legible tables and plots
+
+## [Exploration of US city data](https://catherinerauch.github.io/geog-176A-labs/lab-03.html)
