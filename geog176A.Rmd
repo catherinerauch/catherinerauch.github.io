@@ -9,11 +9,11 @@ title: "GIS work"
 Here is the collection of links for completed assignments: 
 <br>
 
-## [Building a project website](https://github.com/catherinerauch/catherinerauch.github.io)
+## [Exploration of US city data](https://catherinerauch.github.io/geog-176A-labs/lab-03.html)
 
-- In this assignment we built a user site with GitHub
-- It includes a default page ('About Me') and a projects page (repo with access to code) 
-- Use of themes and icons on a webpage was explored
+- In this lab we explored working with sf, sfc, and sfg features & objects
+- Coordinate transformations and calculations were made to visual distances between cities and borders
+- Ggplot, gghighlight, and ggrepel were used to create graphics that are clear and interesting 
 <br>
 
 ## [Analysis of COVID-19 data](https://catherinerauch.github.io/geog-176A-labs/lab-02.html)
@@ -21,5 +21,13 @@ Here is the collection of links for completed assignments:
 - In this lab we practiced data wrangling and visualization with real-time COVID-19 data
 - It includes an in-depth look at daily new case data as well as cumulative data at State and County levels
 - Pipes and other tidyverse tools were used to manipulate data and present it as legible tables and plots
+<br>
 
-## [Exploration of US city data](https://catherinerauch.github.io/geog-176A-labs/lab-03.html)
+## [Building a project website](https://github.com/catherinerauch/catherinerauch.github.io)
+
+- In this assignment we built a user site with GitHub
+- It includes a default page ('About Me') and a projects page (repo with access to code) 
+- Use of themes and icons on a webpage was explored
+<br>
+
+
