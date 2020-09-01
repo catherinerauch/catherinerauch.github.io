@@ -2,33 +2,45 @@
 title: "GIS work"
 ---
 
-<br>
+
 
 ##### In summer 2020, I took an R based GIS course (Geography 176A - Intro to Geographic Information Systems and Science).
 
 Here is the collection of links for completed assignments: 
-<br>
-<br>
+
+
+
+## [Impact of the MAUP on National Dam Inventory data](https://catherinerauch.github.io/geog-176A-labs/lab-04.html)
+
+- In this lab we examined the impacts of different tessellated surfaces and the modifiable areal unit problem (MAUP) 
+- Point-in-polygon counts were calculated to aggregate point data and visualize the distribution of dams over the US
+- Functions were written to more efficiently report and map information
+
+***
 
 ## [Exploration of US city data](https://catherinerauch.github.io/geog-176A-labs/lab-03.html)
 
 - In this lab we explored working with sf, sfc, and sfg features & objects
 - Coordinate transformations and calculations were made to visualize distances between cities and borders
 - Ggplot, gghighlight, and ggrepel were used to create graphics that are clear and interesting 
-<br>
+
+***
 
 ## [Analysis of COVID-19 data](https://catherinerauch.github.io/geog-176A-labs/lab-02.html)
 
 - In this lab we practiced data wrangling and visualization with real-time COVID-19 data
 - It includes an in-depth look at daily new case data as well as cumulative data at State and County levels
 - Pipes and other tidyverse tools were used to manipulate data and present it as legible tables and plots
-<br>
+
+
+***
 
 ## [Building a project website](https://github.com/catherinerauch/catherinerauch.github.io)
 
 - In this assignment we built a user site with GitHub
 - It includes a default page ('About Me') and a projects page (repo with access to code) 
 - Use of themes and icons on a webpage was explored
-<br>
+
+
 
 
