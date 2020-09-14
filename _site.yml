@@ -15,9 +15,13 @@ navbar:
     - text: " CV"
       icon: fa-info
       href: catherinerauch.html
-    - text: "Github"
-      icon: fa-github
+  right:
+    - icon: fa-github
+      text: "Github"
       href: https://github.com/catherinerauch
+    - icon: fa-envelope 
+      text: "Contact Me"
+      href: mailto:catarauch21@gmail.com
 output:
   html_document:
     theme: spacelab
