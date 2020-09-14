@@ -4,15 +4,18 @@ title: "About Me"
 
 `r library(icon)`
 
+<br>
+
 I'm in my last year pursuing a Bachelor’s Degree in Statistics and Data Science at the University of California at Santa Barbara (UCSB).  I am currently exploring a minor in [Spatial Studies](http://spatial.ucsb.edu/academic-minor/).
 
 ***
 
-Last summer, I took an R based GIS course (Geography 176A - Intro to Geographic Information Systems and Science). I worked on assignments that included: 
+Last summer, I took an R based GIS course (Geography 176A - Intro to Geographic Information Systems and Science). 
+Assignments included: 
 
-- working with raw data to create updating tables and plots that breakdown Covid Case Data
+- working with raw data to create updating tables and plots that breakdown Covid-19 case data
 
-- extracting US census data  to analyzing the impacted populations at the US border zone 
+- extracting US census data  to analyze the impacted populations at the US border zone 
 
 - completing a dam analysis to examine dam patterns in the US
 
@@ -27,14 +30,10 @@ I am looking forward to using the skills learned in this class, including collec
 
 ***
 
-In my free time I travel and like to take [photos](https://vsco.co/catttrauc/gallery). Born and raised in Northern California, I'm a big sports fan and religiously follow the San Jose Sharks. But, I can also be spotted at Warriors and Giants games.
-<br>
+In my free time I travel and like to take [photos](https://vsco.co/catttrauc/gallery). Born and raised in Northern California, I'm a big sports fan and religiously follow the San Jose Sharks. But, I can also be spotted at Warriors and Giants games. I enjoy tailoring my projects to my interests, take a [look](https://catherinerauch.github.io/projects.html)!
 
-```{r, echo=FALSE, out.width="49%",out.height="20%",fig.cap="   ",fig.show='hold',fig.align='left'}
+<br>
+```{r, echo=FALSE, out.width="50%",out.height="20%",fig.cap="   ",fig.show='hold',fig.align='center'}
 knitr::include_graphics(c("img/OsakaCastle.jpg","img/JapaneseMaple.jpg"))
 ``` 
-
-
-
-I enjoy tailoring my projects to my interests, take a [look](https://catherinerauch.github.io/projects.html)!
 
