@@ -7,20 +7,20 @@ title: "GIS work"
 Here is the collection of links for completed assignments: 
 
 > ## [Creating a FIM with Flood Data from Mission Creek](https://catherinerauch.github.io/geog-176A-labs/lab-06.html)
-
 ```{r, echo=FALSE, out.width="40%",out.height="30%",fig.cap="  ",fig.align='left'}
 knitr::include_graphics(c("img/lab06plot.png"))
 ```
 
 - In this lab we estimated the number of buildings impacted in the 2017 Santa Barbara flood
 
-- Data was load into R using Web APIs and the whitebox frontend was used to create a partial Flood Inudation Map (FIM) with structural damage assessment.
+- This terrain data was prepped for analysis by aligning object and field data
+
+- Data was loaded into R using Web APIs and the whitebox frontend was used to create a partial Flood Inudation Map (FIM) with structural damage assessment.
 
 
 ***
 
 > ## [Examination and Visualization of 2016 Palo, Iowa Flood Data](https://catherinerauch.github.io/geog-176A-labs/lab-05.html)
-
 ```{r, echo=FALSE, out.width="40%",out.height="30%",fig.cap="  ",fig.align='left'}
 knitr::include_graphics(c("img/lab5plot.png"))
 ```
@@ -34,7 +34,6 @@ knitr::include_graphics(c("img/lab5plot.png"))
 ***
 
 > ## [Impact of the MAUP on National Dam Inventory data](https://catherinerauch.github.io/geog-176A-labs/lab-04.html)
-
 ```{r, echo=FALSE, out.width="50%",out.height="40%",fig.cap="   ",fig.align='left'}
 knitr::include_graphics("img/lab4plot.png")
 ```
@@ -46,11 +45,9 @@ knitr::include_graphics("img/lab4plot.png")
 ***
 
 > ## [Exploration of US city data](https://catherinerauch.github.io/geog-176A-labs/lab-03.html)
-
 ```{r, echo=FALSE, out.width="50%",out.height="40%",fig.cap="   ",fig.align='left'}
 knitr::include_graphics("img/CopyofUSthememap.jpg")
 ```
-
 
 - In this lab we explored working with sf, sfc, and sfg features & objects
 - Coordinate transformations and calculations were made to visualize distances between cities and borders
@@ -59,11 +56,9 @@ knitr::include_graphics("img/CopyofUSthememap.jpg")
 ***
 
 > ## [Analysis of COVID-19 data](https://catherinerauch.github.io/geog-176A-labs/lab-02.html)
-
 ```{r, echo=FALSE, out.width="40%",out.height="30%",fig.cap="  ",fig.align='left'}
 knitr::include_graphics("img/Copyofcovidplot.jpg")
 ```
-
 
 - In this lab we practiced data wrangling and visualization with real-time COVID-19 data
 - It includes an in-depth look at daily new case data as well as cumulative data at State and County levels
