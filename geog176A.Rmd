@@ -2,8 +2,6 @@
 title: "GIS work"
 ---
 
-
-
 ##### In summer 2020, I took an R based GIS course (Geography 176A - Intro to Geographic Information Systems and Science).
 
 Here is the collection of links for completed assignments: 
@@ -74,7 +72,7 @@ knitr::include_graphics("img/Copyofcovidplot.jpg")
 
 ***
 
-## [Building a project website](https://github.com/catherinerauch/catherinerauch.github.io)
+> ## [Building a project website](https://github.com/catherinerauch/catherinerauch.github.io)
 
 - In this assignment we built a user site with GitHub
 - It includes a default page ('About Me') and a projects page (repo with access to code) 
