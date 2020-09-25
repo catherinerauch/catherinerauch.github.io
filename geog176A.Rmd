@@ -1,8 +1,54 @@
----
-title: "GIS work"
----
+```{r library, include=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(leaflet)
+library(sf)
+```
+
+***
+## Current Work
+***
+### 16 Years of Killer Whale Sightings with Reported Location data mapped:
+
+```{r orcamap, warning=FALSE, message=FALSE, echo=FALSE}
+orcadata <- read_csv("C:/Users/Catherine/Downloads/orca.csv") %>%
+  st_as_sf(coords = c("longitude", "latitude"), crs = 4326)
+
+orcabb <- orcadata %>%
+# transform to CRS:5070 and create a 5 km buffer
+st_transform(5070) %>%
+  st_buffer(5000) %>%
+  # get bounding box of buffer and make bbox object a sfc and then sf object
+  st_bbox() %>%
+  st_as_sfc() %>%
+  st_as_sf()
+
+pal <- colorFactor(palette = "RdBu", domain = c(orcadata$orca_type))
+
+lab <- orcadata$orca_type
+
+leaflet(data = orcadata) %>%
+  addProviderTiles(providers$Esri.WorldImagery, options = providerTileOptions(opacity = .9)) %>%
+  addProviderTiles(providers$Stamen.TonerLines, options = providerTileOptions(opacity = .5)) %>%
+  addProviderTiles(providers$CartoDB, options = providerTileOptions(opacity = .7) ) %>%
+  addCircleMarkers(data = orcadata, color = ~pal(orca_type),
+                   label = lab,
+                   popup = leafpop::popupTable(cbind(st_drop_geometry(orcadata)[,4:5], st_drop_geometry(orcadata)[,8]),
+                                               feature.id = FALSE, row.numbers = FALSE),
+                   radius = ~quantity, fillOpacity = 1.5) %>%
+  addMarkers(clusterOptions = markerClusterOptions()) %>%
+  addMiniMap() %>%
+  addControl("Killer Whale Sightings reported by The Whale Museum", position = "topright")
+
+```
+
+Raw data collected from [the Whale Museums' Hotline](https://hotline.whalemuseum.org/) public API .
+Transient or Southern Resident refers to the type of killer whale. Transients consume other mammals including porpoises, sea lions, and whales, while Southern Residents consume only fish and are the only population of killer whales critically endangered. More info can be found [here](https://us.whales.org/whales-dolphins/meet-the-different-types-of-orcas/) .
+
 ***
 
+## Past Work
+***
+## GEOG 176A
 > ## [Creating a FIM with Flood Data from Mission Creek](https://catherinerauch.github.io/geog-176A-labs/lab-06.html)
 ```{r, echo=FALSE, out.width="40%",out.height="30%",fig.cap="  ",fig.align='left'}
 knitr::include_graphics(c("img/lab06plot.png"))

@@ -26,7 +26,9 @@ Assignments included:
 More info can be found [here](https://catherinerauch.github.io/geog176A.html).
 
 
-I am looking forward to using the skills learned in this class, including collecting and cleaning raw data, vector/raster data manipulation, creating/joining spatial data and objects, and geographical focused visualizations and tables, to create more spatial projects. Currently, I am using these newly learned skills to examine Oregon Wildfire Data.
+I am looking forward to using the skills learned in this class, including collecting and cleaning raw data, vector/raster data manipulation, creating/joining spatial data and objects, and geographical focused visualizations and tables, to create more spatial projects. 
+
+Currently, I am [working](https://catherinerauch.github.io/geog176A.html) on a spatial regression analysis of Killer Whale Location Patterns.
 
 ***
 

@@ -2,6 +2,6 @@
 title: ""
 output: html_document
 ---
-```{r, echo=FALSE, out.width="90%",out.height="90%",fig.cap="  ",fig.align='center'}
-knitr::include_graphics("img/resumescreenshot.png")
+```{r, echo=FALSE, out.width="80%",out.height="80%",fig.cap="  ",fig.align='center'}
+knitr::include_graphics("img/resumescreenshot.png", auto_pdf = TRUE, dpi = 500)
 ```
