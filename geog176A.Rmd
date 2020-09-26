@@ -1,8 +1,11 @@
+# {.tabset .tabset-fade}
+
 ```{r library, include=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(leaflet)
 library(sf)
 ```
+
 
 ***
 ## Current Work
@@ -48,7 +51,7 @@ Transient or Southern Resident refers to the type of killer whale. Transients co
 
 ## Past Work
 ***
-## GEOG 176A
+### GEOG 176A
 > ## [Creating a FIM with Flood Data from Mission Creek](https://catherinerauch.github.io/geog-176A-labs/lab-06.html)
 ```{r, echo=FALSE, out.width="40%",out.height="30%",fig.cap="  ",fig.align='left'}
 knitr::include_graphics(c("img/lab06plot.png"))
