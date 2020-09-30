@@ -57,13 +57,12 @@ Transient or Southern Resident refers to the type of killer whale. Transients co
 
 ## Previous Work
 ***
-### Geog 176A
 > ## [Creating a FIM with Flood Data from Mission Creek](https://catherinerauch.github.io/geog-176A-labs/lab-06.html)
 ```{r, echo=FALSE, out.width="40%",out.height="30%",fig.cap="  ",fig.align='left'}
 knitr::include_graphics(c("img/lab06plot.png"))
 ```
 
-- In this lab we estimated the number of buildings impacted in the 2017 Santa Barbara flood
+- Estimated the number of buildings impacted in the 2017 Santa Barbara flood
 
 - This terrain data was prepped for analysis by aligning object and field data
 
@@ -77,9 +76,9 @@ knitr::include_graphics(c("img/lab06plot.png"))
 knitr::include_graphics(c("img/lab5plot.png"))
 ```
 
-- In this lab we created multiband raster files to detect/analyze a flood event
+- Created multiband raster files to detect/analyze a flood event
 
-- Raster manipulation was used to threshold and classify data to be analysed
+- Raster manipulation was used to threshold and classify data to be analyzed
 
 - Flood data from 2016 Palo, Iowa was graphed and examined
 
@@ -90,7 +89,7 @@ knitr::include_graphics(c("img/lab5plot.png"))
 knitr::include_graphics("img/lab4plot.png")
 ```
 
-- In this lab we examined the impacts of different tessellated surfaces and the modifiable areal unit problem (MAUP) 
+- Examined the impacts of different tessellated surfaces and the modifiable areal unit problem (MAUP) 
 
 - Point-in-polygon counts were calculated to aggregate point data and visualize the distribution of dams over the US
 
@@ -103,7 +102,7 @@ knitr::include_graphics("img/lab4plot.png")
 knitr::include_graphics("img/CopyofUSthememap.jpg")
 ```
 
-- In this lab we explored working with sf, sfc, and sfg features & objects
+- Explored working with sf, sfc, and sfg features & objects
 
 - Coordinate transformations and calculations were made to visualize distances between cities and borders
 
@@ -116,7 +115,7 @@ knitr::include_graphics("img/CopyofUSthememap.jpg")
 knitr::include_graphics("img/Copyofcovidplot.jpg")
 ```
 
-- In this lab we practiced data wrangling and visualization with real-time COVID-19 data
+- Data wrangling and visualization with real-time COVID-19 data
 
 - It includes an in-depth look at daily new case data as well as cumulative data at State and County levels
 
@@ -124,14 +123,6 @@ knitr::include_graphics("img/Copyofcovidplot.jpg")
 
 
 ***
-
-> ## [Building a project website](https://github.com/catherinerauch/catherinerauch.github.io)
-
-- In this assignment we built a user site with GitHub
-
-- It includes a default page ('About Me') and a projects page (repo with access to code) 
-
-- Use of themes and icons on a webpage was explored
 
 
 
