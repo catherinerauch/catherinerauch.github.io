@@ -1,0 +1,3518 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-top:24.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	color:#365F91;
+	font-weight:bold;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	page-break-after:avoid;
+	font-size:13.0pt;
+	font-family:"Cambria","serif";
+	color:#4F81BD;
+	font-weight:bold;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{mso-style-link:"Title Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:15.0pt;
+	margin-left:0in;
+	border:none;
+	padding:0in;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoTitleCxSpFirst, li.MsoTitleCxSpFirst, div.MsoTitleCxSpFirst
+	{mso-style-link:"Title Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	border:none;
+	padding:0in;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoTitleCxSpMiddle, li.MsoTitleCxSpMiddle, div.MsoTitleCxSpMiddle
+	{mso-style-link:"Title Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	border:none;
+	padding:0in;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoTitleCxSpLast, li.MsoTitleCxSpLast, div.MsoTitleCxSpLast
+	{mso-style-link:"Title Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:15.0pt;
+	margin-left:0in;
+	border:none;
+	padding:0in;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-link:"Body Text Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.MsoPlaceholderText
+	{color:gray;}
+span.MsoSubtleEmphasis
+	{color:gray;
+	font-style:italic;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+span.VerbatimChar
+	{mso-style-name:"Verbatim Char";
+	mso-style-link:"Source Code";
+	font-family:Consolas;
+	background:#F8F8F8;}
+p.SourceCode, li.SourceCode, div.SourceCode
+	{mso-style-name:"Source Code";
+	mso-style-link:"Verbatim Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	background:#F8F8F8;
+	word-break:break-all;
+	font-size:11.0pt;
+	font-family:Consolas;}
+span.KeywordTok
+	{mso-style-name:KeywordTok;
+	font-family:Consolas;
+	color:#204A87;
+	background:#F8F8F8;
+	font-weight:bold;}
+span.DataTypeTok
+	{mso-style-name:DataTypeTok;
+	font-family:Consolas;
+	color:#204A87;
+	background:#F8F8F8;}
+span.DecValTok
+	{mso-style-name:DecValTok;
+	font-family:Consolas;
+	color:#0000CF;
+	background:#F8F8F8;}
+span.StringTok
+	{mso-style-name:StringTok;
+	font-family:Consolas;
+	color:#4E9A06;
+	background:#F8F8F8;}
+span.CommentTok
+	{mso-style-name:CommentTok;
+	font-family:Consolas;
+	color:#8F5902;
+	background:#F8F8F8;
+	font-style:italic;}
+span.OperatorTok
+	{mso-style-name:OperatorTok;
+	font-family:Consolas;
+	color:#CE5C00;
+	background:#F8F8F8;
+	font-weight:bold;}
+span.NormalTok
+	{mso-style-name:NormalTok;
+	font-family:Consolas;
+	background:#F8F8F8;}
+p.FirstParagraph, li.FirstParagraph, div.FirstParagraph
+	{mso-style-name:"First Paragraph";
+	margin-top:9.0pt;
+	margin-right:0in;
+	margin-bottom:9.0pt;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Calibri","sans-serif";}
+span.FloatTok
+	{mso-style-name:FloatTok;
+	font-family:Consolas;
+	color:#0000CF;
+	background:#F8F8F8;}
+span.OtherTok
+	{mso-style-name:OtherTok;
+	font-family:Consolas;
+	color:#8F5902;
+	background:#F8F8F8;}
+span.BodyTextChar
+	{mso-style-name:"Body Text Char";
+	mso-style-link:"Body Text";}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Cambria","serif";
+	color:#365F91;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Cambria","serif";
+	color:#4F81BD;
+	font-weight:bold;}
+span.TitleChar
+	{mso-style-name:"Title Char";
+	mso-style-link:Title;
+	font-family:"Cambria","serif";
+	color:#17365D;
+	letter-spacing:.25pt;}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection3
+	{page:WordSection3;}
+@page WordSection4
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection4
+	{page:WordSection4;}
+@page WordSection5
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection5
+	{page:WordSection5;}
+@page WordSection6
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection6
+	{page:WordSection6;}
+@page WordSection7
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection7
+	{page:WordSection7;}
+@page WordSection8
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection8
+	{page:WordSection8;}
+@page WordSection9
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection9
+	{page:WordSection9;}
+@page WordSection10
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection10
+	{page:WordSection10;}
+@page WordSection11
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection11
+	{page:WordSection11;}
+@page WordSection12
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection12
+	{page:WordSection12;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US link=blue vlink=purple>
+
+<div class=WordSection1>
+
+<div style='border:none;border-bottom:solid #4F81BD 1.0pt;padding:0in 0in 4.0pt 0in'>
+
+<p class=MsoTitle>Forecast of Southern Resident Killer Whale Sightings in the
+Salish Sea</p>
+
+</div>
+
+<p class=MsoNormal><span class=MsoSubtleEmphasis>Catherine Rauch</span></p>
+
+<h1>Summary</h1>
+
+<p class=MsoNormal style='line-height:150%'>The goal of this report was to
+compile sighting data of the Southern Resident Killer Whales in the Salish Sea,
+and to accurately predict future months of sightings data from past data. </p>
+
+<p class=MsoNormal style='line-height:150%'>The analysis started with a sample
+of 16,722 observations, these observations were grouped by month from year 2008
+to 2015. The raw data had a decreasing variance and presented a seasonal trend.
+Appropriate transformation and differencing was applied to achieve a stationary
+time series. The plots of sample autocorrelation (ACF) and sample partial
+autocorrelation (PACF) were examined to determine an appropriate model.  Models
+were sorted by AICc (corrected Akaike information criterion), and checked for
+non-stationarity and non-invertiblity. The model was then used to forecast the
+next 18 months of sightings data.</p>
+
+<p class=MsoNormal style='line-height:150%'>This dataset predicts the decrease
+in total whale sightings from the previous year, which is a part of a larger
+downward trend of fewer sightings and a continuing seasonal trend as the whales
+continue to migrate for winter and summer. Whale watching companies will have
+to prepare for a decrease in whale sightings and potentially a decrease in
+revenue and tourism due to fewer whale sightings.</p>
+
+<p class=MsoNormal><span class=Heading1Char><span style='font-size:14.0pt;
+line-height:115%'>Introduction</span></span></p>
+
+<p class=MsoNormal style='line-height:150%'>The Southern Resident Killer Whales
+are a unique sub-species of killer whale. Their name, resident, reflects their
+summer behavior, when they often spend weeks in the same area, but travel
+seasonally between summer and winter. </p>
+
+<p class=MsoNormal style='line-height:150%'>The whale watching industry in Washington
+State is estimated to be worth $65 to $70 million annually. With the Whale
+Museum estimating that, annually, more than 500,000 people go whale watching on
+commercial /private vessels in the waters of Washington State and British
+Columbia (the Salish Sea). NOAA Technical Memorandum conducted an analysis of the
+whale watching industry and found that many businesses are based on tourism
+that would not survive without the Southern Resident Killer Whales. It’s
+estimated that wildlife watching activities support more than 21,000 jobs in
+Washington.</p>
+
+<p class=MsoNormal style='line-height:150%'>However, these whales are
+critically endangered, so their population is small and often, they can be
+elusive, hard to see, and in recent years their sightings have decreased all
+together.</p>
+
+<p class=MsoNormal style='line-height:150%'>The main goal is to identify a
+sightings pattern to be able to forecast expected arrival of the whales,
+furthermore, although not in the scope of this time series analysis, this
+projection can allow for prediction in estimated revenue for whale watching
+businesses.  </p>
+
+<p class=MsoNormal style='line-height:150%'>In detailing techniques used on the
+raw time series data, a transformation was applied to stabilize the non
+constant variance. The data was split into two data sets, one to be used in
+training the fitted model and another to test the fitted model. The transformed
+data was differenced to remove the seasonality trend. Through examination of
+the ACF and PACF parameters were identify to fit multiple SARIMA(p, d, q) × (P,
+D, Q)s models. They were compared using AICc and model coefficients were used
+to assess whether the model was invertible and stationary. Diagnostic checking
+was performed on the residuals to assess if model needed adjusting. The model
+was fitted to the training data set along with the test data set to compare and
+then used to forecast. This forecast predicted a overall decrease in total
+whale sighting in the Salish Sea compared to the last year. It also predicted a
+continuation of a downward trend of less total whale sightings year to year.</p>
+
+<p class=MsoNormal style='line-height:150%'>This data set is a compilation of
+monthly Southern Resident Killer Whale sighting counts from 2008 to 2015. This
+information came from The Whale Museums online sightings hotline, located on
+their website, where they have public records available. This data was parsed
+and compiled using pandas in Jupyterlab, and then analyzed and forecasted using
+R in Rstudio. </p>
+
+<h1>&nbsp;</h1>
+
+<h1>&nbsp;</h1>
+
+<h1><span style='font-size:9.0pt;line-height:115%'>&nbsp;</span></h1>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<h1>Findings</h1>
+
+<p class=MsoNormal style='line-height:150%'>The initial overview of the data
+indicated that it had a variance that was non constant and had a seasonal
+trend. This indicates the time series is non-stationary. The data was plotted
+below. </p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'><img
+width=436 height=270 id="Picture 83"
+src="RauchKillerWhaleProject_files/image001.jpg" alt=0001c9.png></p>
+
+<p class=MsoNormal style='line-height:150%'>To assess the quality  of the
+model, the raw data was split into a training set and test set. Training set
+was the data that was analyzed to build the model and consisted of the monthly
+data from 2008-2014. The training data was transformed using a log
+transformation to stabilize the variance. The resulting data is graphed below</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'><img
+width=462 height=286 id="Picture 85"
+src="RauchKillerWhaleProject_files/image002.jpg" alt=0001f2.png></p>
+
+<p class=MsoNormal style='line-height:150%'>This graph still shows a yearly
+seasonal trend, so the data was differenced at lag 12 to eliminate this.  This
+newly differenced and transformed data appeared to have no apparent
+trend/seasonality.</p>
+
+<p class=MsoNormal style='line-height:150%'>The PACF and ACF below of the
+series were used to preliminarily estimate a SARIMA(p, d, q) × (P, D, Q)s
+model.</p>
+
+<p class=MsoNormal style='line-height:150%'> <img width=292 height=234
+id="Picture 3" src="RauchKillerWhaleProject_files/image003.jpg"> <img
+width=287 height=230 id="Picture 4"
+src="RauchKillerWhaleProject_files/image004.jpg"></p>
+
+<p class=MsoNormal style='line-height:150%'>One seasonal differencing was
+applied, indicating D = 1 at lag s = 12, as the data was reported monthly. The
+ACF shows a peak at h = 1s, this shows Q can be estimated as 1. The PACF shows
+a strong peaks at h = 2s, so estimation for P will be 2.  </p>
+
+<p class=MsoNormal style='line-height:150%'>The series was differenced again to
+estimate p and q. Below are the graphs.</p>
+
+<p class=MsoNormal style='line-height:150%'><img width=314 height=251
+id="Picture 5" src="RauchKillerWhaleProject_files/image005.jpg"> <img
+width=292 height=259 id="Picture 6"
+src="RauchKillerWhaleProject_files/image006.jpg"></p>
+
+<p class=MsoNormal style='line-height:150%'>From the within-year ACF and PACF,
+q can be estimated as 1 and p as 2 or 1. Because the data was only differenced
+to remove seasonality, d will be equal to 0. </p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>3 models were then fitted.
+</p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>Model 1: SARIMA(1, 0, 1)
+× (2, 1, 1)12</p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>Model 2: SARIMA(1, 0, 1)
+× (2, 1, 2)12</p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>Model 3: SARIMA(2, 0, 1)
+× (1, 1, 1)12</p>
+
+<p class=MsoNormal style='line-height:150%'>AICc was used to compare the model
+fit. As model 3 has the lowest value, the next step was to examine model roots
+to check invertibility and stationarity. Roots were plotted below.</p>
+
+<p class=MsoNormal style='line-height:150%'><img width=250 height=222
+id="Picture 77" src="RauchKillerWhaleProject_files/image007.jpg"><span
+style='font-size:10.5pt;line-height:150%'> </span><img width=277 height=222
+id="Picture 78" src="RauchKillerWhaleProject_files/image008.jpg"><span
+style='font-size:10.5pt;line-height:150%'> <img width=266 height=226
+id="Picture 79" src="RauchKillerWhaleProject_files/image009.jpg"> <img
+width=266 height=213 src="RauchKillerWhaleProject_files/image010.jpg"></span></p>
+
+<p class=MsoNormal style='line-height:150%'>Model roots are in red and should
+be outside of the unit circle, inverse roots in blue and should be inside the
+unit circle. No roots should be on the circle. Since all conditions are
+satisfied in these graphs, the model is stationary and invertible. </p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>Coefficients were estimated
+by the Rstudios’ sarima function in the package {astsa}.</p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>Autoregressive (AR) coefficient
+1 = -0.2097, AR coefficient 2 =  0.2146 </p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>Moving Average (MA)
+coefficient = 0.2475</p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>Seasonal AR coefficient =
+0.1763 </p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>Seasonal MA coefficient =
+-0.7657</p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'><span style='font-size:
+5.0pt;line-height:150%'>&nbsp;</span></p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>SARIMA(p, d, q) × (P, D,
+Q)s equation:</p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+position:relative;top:4.5pt'><img width=239 height=20
+src="RauchKillerWhaleProject_files/image011.gif"></span> <span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+position:relative;top:4.5pt'><img width=326 height=21
+src="RauchKillerWhaleProject_files/image012.gif"></span></p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>SARIMA(2, 0, 1) × (1, 1,
+1)12:</p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";
+position:relative;top:4.5pt'><img width=539 height=20
+src="RauchKillerWhaleProject_files/image013.gif"></span> </p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>Fitted equation:</p>
+
+<p class=MsoNormalCxSpMiddle align=center style='text-align:center;line-height:
+150%'><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif"'><img
+width=614 height=22 src="RauchKillerWhaleProject_files/image014.gif"></span></p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>Diagnostic checking was conducted on
+the residuals of model 3.  The portmanteau tests, Box–Pierce and Ljung–Box in
+Rstudios’ {stats} package were computed to examine independence of residuals.
+The p-values were reported as 0.5796 and 0.5002, respectively. It can be
+concluded that the residuals are independent.  Below are the residuals of model
+3 graphed.</p>
+
+<p class=MsoNormal style='line-height:150%'><img width=251 height=214
+id="Picture 20" src="RauchKillerWhaleProject_files/image015.jpg"> <img
+width=262 height=214 id="Picture 21"
+src="RauchKillerWhaleProject_files/image016.jpg"></p>
+
+<p class=MsoNormal style='line-height:150%'><img width=258 height=171
+id="Picture 22" src="RauchKillerWhaleProject_files/image017.jpg"> <img
+width=249 height=161 id="Picture 23"
+src="RauchKillerWhaleProject_files/image018.jpg"></p>
+
+<p class=MsoNormal style='line-height:150%'>After examining the graphs and
+taking into consideration the p-values reported in the tests, it can be
+concluded the residuals are approximately normal and approximately independent.
+The graphs also indicate that the residuals are white noise, ie they have no
+trend, no seasonality, no change of variance.  From these conclusions it was
+decided no adjustment of the fitted model was needed.</p>
+
+<p class=MsoNormal style='line-height:150%'>From this model, using the
+sarima.for function in Rstudios {astsa} package, a forecast was fitted on the
+training model. The test data was included. The shaded blue is the confidence
+interval calculated by the function sarima.for.</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'><img
+width=434 height=267 id="Picture 87"
+src="RauchKillerWhaleProject_files/image019.jpg" alt=000224.png></p>
+
+<p class=MsoNormal style='line-height:150%'>The above graph is of the
+transformed data. Below the model was fitted on the original data.</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'><img
+width=486 height=300 id="Picture 70"
+src="RauchKillerWhaleProject_files/image020.jpg" alt=0001c6.png></p>
+
+<p class=MsoNormal style='line-height:150%'>From the prediction, it can be
+concluded that a decrease in whale sightings from the previous year will occur.
+There appears to be a continuing trend of total amount of whale sightings
+decreasing in recent years. Additionally, the strong seasonal trend will
+continue. </p>
+
+<h1 style='line-height:150%'>Conclusion</h1>
+
+<p class=MsoNormal style='line-height:150%'>The goal of this analysis was to
+compile sighting data of the Southern Resident Killer Whales in the Salish Sea,
+and to identify a sightings pattern in order to predict future months of
+sightings. This goal was achieved.</p>
+
+<p class=MsoNormalCxSpMiddle style='line-height:150%'>The final fitted model: <span
+style='font-family:"Cambria Math","serif"'><br>
+</span><span
+style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif"'><img
+width=614 height=22 src="RauchKillerWhaleProject_files/image014.gif"></span></p>
+
+<p class=MsoNormal style='line-height:150%'>From the obtained prediction, it
+can be concluded that a decrease in whale sightings from the previous year will
+occur. There appears to be a continuing trend of total amount of whale sightings
+decreasing in recent years. These whales are critically endangered and in the
+past years have had a downward trend in population. The sighting data appears
+to mirror this; fewer whales’ means fewer sightings. Whale watching companies
+will have to prepare for an overall decrease in whale sightings and potentially
+a decrease in revenue and tourism due to this.</p>
+
+<h1>References</h1>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>The Whale Hotline. <i>The Whale Museum</i>, <u>hotline.whalemuseum.org/</u></p>
+
+<p class=MsoNormal>Southern Resident Killer Whale Chinook Salmon Inititive. <u>srkwcsi.org/</u></p>
+
+<p class=MsoNormalCxSpMiddle>Sightings of Southern Resident Killer Whales in
+the Salish Sea 1976&#8722;2014: the Importance of a Long-Term Opportunistic
+Dataset.</p>
+
+<p class=MsoNormalCxSpMiddle><i>Coastal Ocean Research Institute, Vancouver,
+BC, Canada</i></p>
+
+<p class=MsoNormalCxSpMiddle>Jennifer K. Olson , Jason Wood , Richard Osborne ,
+Lance Barrett-Lennard, Shawn Larson <u>www.eopugetsound.org/sites/default/files/features/resources/Olson%20et%20al.%202018%20SRKW%20Sightings.pdf</u></p>
+
+<p class=MsoNormalCxSpMiddle><u><span style='text-decoration:none'>&nbsp;</span></u></p>
+
+<p class=MsoNormalCxSpMiddle>The U.S. Whale Watching Industry of Greater Puget
+Sound A Description and Baseline Analysis <i>NOAA Technical Memorandum</i></p>
+
+<p class=MsoNormalCxSpLast><u>https://www.nwfsc.noaa.gov/assets/25/7442_04172014_143023_WhaleWatchingTM126WebFinal.pdf</u></p>
+
+<p style='margin:0in;margin-bottom:.0001pt'><i>&nbsp;</i></p>
+
+<p style='margin:0in;margin-bottom:.0001pt'>&nbsp;</p>
+
+<h1 style='margin-top:0in'>Appendix</h1>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormalCxSpMiddle style='margin-top:0in;margin-right:0in;margin-bottom:
+0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:-.5in'><i><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'># read data
+into Rstudio</span></i></p>
+
+<p class=MsoNormalCxSpMiddle style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>whale &lt;-</span></span><span class=StringTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=KeywordTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>read.csv</span></span><span class=NormalTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>(</span></span><span
+class=StringTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&quot;C:/Users/Catherine/Downloads/new_whale (1).csv&quot;</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>)</span></span><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New"'><br>
+<span class=NormalTok><span style='font-family:"Courier New"'>whale  &lt;-</span></span><span
+class=StringTok><span style='font-family:"Courier New"'> </span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>whale[,</span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>2</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>]</span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br>
+<span class=CommentTok><span style='font-family:"Courier New";color:windowtext'>#
+variance changes over time, so apply transformation</span></span><br>
+<span class=NormalTok><span style='font-family:"Courier New"'>whale &lt;-</span></span><span
+class=StringTok><span style='font-family:"Courier New"'> </span></span><span
+class=KeywordTok><span style='font-family:"Courier New"'>log</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(whale)</span></span><br>
+<br>
+</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><i><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'># split
+model up into data for model to be trained on and then tested<br>
+</span></i><span class=NormalTok><span style='font-size:10.0pt;line-height:
+115%;font-family:"Courier New"'>train &lt;-</span></span><span class=StringTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>whale[</span></span><span class=DecValTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>1</span></span><span
+class=OperatorTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>:</span></span><span class=DecValTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>84</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>]</span></span><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New"'><br>
+<span class=NormalTok><span style='font-family:"Courier New"'>test &lt;-</span></span><span
+class=StringTok><span style='font-family:"Courier New"'> </span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>whale[</span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>85</span></span><span
+class=OperatorTok><span style='font-family:"Courier New"'>:</span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>96</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>]</span></span><br>
+<span class=NormalTok><span style='font-family:"Courier New"'>test &lt;-</span></span><span
+class=StringTok><span style='font-family:"Courier New"'> </span></span><span
+class=KeywordTok><span style='font-family:"Courier New"'>ts</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(test, </span></span><span
+class=DataTypeTok><span style='font-family:"Courier New"'>frequency =</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>12</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>)</span></span><br>
+<span class=NormalTok><span style='font-family:"Courier New"'>whale.ts &lt;-</span></span><span
+class=StringTok><span style='font-family:"Courier New"'> </span></span><span
+class=KeywordTok><span style='font-family:"Courier New"'>ts</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(train, </span></span><span
+class=DataTypeTok><span style='font-family:"Courier New"'>frequency =</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>12</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>)</span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br>
+<span class=KeywordTok><span style='font-family:"Courier New"'>plot.ts</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(whale.ts) <i># used
+above in report</i></span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:windowtext'># difference to remove seasonality</span></span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br>
+<span class=NormalTok><span style='font-family:"Courier New"'>whale.diff &lt;-</span></span><span
+class=StringTok><span style='font-family:"Courier New"'> </span></span><span
+class=KeywordTok><span style='font-family:"Courier New"'>diff</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(whale.ts, </span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>12</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>)</span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br>
+<span class=KeywordTok><span style='font-family:"Courier New"'>plot.ts</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(whale.diff)</span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><img
+width=307 height=190 id="Picture 86"
+src="RauchKillerWhaleProject_files/image021.jpg" alt=0001f3.png></span></p>
+
+<p class=MsoNormal><span class=CommentTok><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:windowtext'># plot acfs and
+pacfs to estimate parameters</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:windowtext'>#(plots used above in report)</span></span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br>
+<span class=KeywordTok><span style='font-family:"Courier New"'>acf</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(whale.diff, </span></span><span
+class=DataTypeTok><span style='font-family:"Courier New"'>lag.max =</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>40</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>)</span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=KeywordTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>pacf</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>(whale.diff, </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>lag.max =</span></span><span class=NormalTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>40</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>)</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=KeywordTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>acf</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>(</span></span><span
+class=KeywordTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>diff</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>(whale.diff, </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>12</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>), </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>lag.max =</span></span><span class=NormalTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>40</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>)</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=KeywordTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>pacf</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>(</span></span><span
+class=KeywordTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>diff</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>(whale.diff, </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>12</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>), </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>lag.max =</span></span><span class=NormalTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>40</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>)</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:windowtext'>&nbsp;</span></span></p>
+
+</div>
+
+<span class=CommentTok><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:windowtext'><br clear=all style='page-break-before:
+auto'>
+</span></span>
+
+<div class=WordSection2><br clear=all style='page-break-before:always'>
+
+<p class=MsoNormal><span class=CommentTok><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:windowtext'>&nbsp;</span></span></p>
+
+<p class=MsoNormalCxSpMiddle style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:windowtext'># fit models with predicted parameter values
+estimated from acf and pacf</span></span></p>
+
+</div>
+
+<span class=NormalTok><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New"'><br clear=all style='page-break-before:auto'>
+</span></span>
+
+<div class=WordSection3>
+
+<p class=MsoNormalCxSpMiddle style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></span></p>
+
+<p class=MsoNormalCxSpMiddle style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=NormalTok><i><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'># model 1</span></i></span></p>
+
+<p class=MsoNormalCxSpMiddle style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>fit.i &lt;-</span></span><span class=StringTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=KeywordTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>sarima</span></span><span class=NormalTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>((train), </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>p =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>1</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>d =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>0</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>q =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>1</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>P =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>2</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> , D = 1, Q = 1, S = 12)</span></span></p>
+
+</div>
+
+<span class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New"'><br clear=all style='page-break-before:auto'>
+</span></span>
+
+<div class=WordSection4></div>
+
+<span class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New"'><br clear=all style='page-break-before:auto'>
+</span></span>
+
+<div class=WordSection5>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>## initial  value -0.077803 </span></span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   2
+value -0.301345</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   3
+value -0.320685</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   4
+value -0.331440</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   5
+value -0.336954</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   6
+value -0.337901</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   7
+value -0.338157</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   8
+value -0.338249</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   9
+value -0.338293</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  10
+value -0.338361</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  11
+value -0.338515</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  12
+value -0.338566</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  13
+value -0.338578</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  14
+value -0.338579</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  14
+value -0.338579</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## final 
+value -0.338579 </span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## converged</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## initial 
+value -0.042883 </span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   2
+value -0.079369</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   3
+value -0.094209</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   4
+value -0.094667</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   5
+value -0.094997</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   6
+value -0.095120</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   7
+value -0.095296</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   8
+value -0.095854</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   9
+value -0.096457</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  10
+value -0.096825</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  11
+value -0.097023</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  12
+value -0.097040</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  13
+value -0.097076</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  14
+value -0.097109</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  15
+value -0.097119</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  16
+value -0.097121</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  17
+value -0.097125</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  18
+value -0.097127</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  19
+value -0.097130</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  20
+value -0.097134</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  21
+value -0.097135</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  22
+value -0.097135</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  23
+value -0.097135</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  24
+value -0.097135</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  25
+value -0.097135</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  26
+value -0.097135</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  27
+value -0.097135</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  27
+value -0.097135</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## final 
+value -0.097135 </span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## converged</span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection6>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection7>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><img
+width=374 height=299 id="Picture 51"
+src="RauchKillerWhaleProject_files/image022.jpg"></span></p>
+
+<span class=NormalTok><i><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New"'><br clear=all style='page-break-before:always'>
+</span></i></span>
+
+<p class=MsoNormal><span class=NormalTok><i><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New"'># model 2</span></i></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>fit.ii &lt;-</span></span><span class=StringTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=KeywordTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>sarima</span></span><span class=NormalTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>((train), </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>p =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>1</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>d =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>0</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>q =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>1</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>P =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>2</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> , </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>D =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>1</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>Q =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>2</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>S =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>12</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>)</span></span></p>
+
+</div>
+
+<span class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New"'><br clear=all style='page-break-before:auto'>
+</span></span>
+
+<div class=WordSection8>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>## initial  value -0.077803 </span></span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   2
+value -0.294933</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   3
+value -0.315719</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   4
+value -0.329583</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   5
+value -0.341670</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   6
+value -0.343374</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   7
+value -0.347261</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   8
+value -0.347934</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   9
+value -0.348118</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  10
+value -0.348128</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  11
+value -0.348143</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  12
+value -0.348150</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  13
+value -0.348158</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  14
+value -0.348165</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  15
+value -0.348168</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  16
+value -0.348169</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  17
+value -0.348169</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  17
+value -0.348169</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  17
+value -0.348169</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## final 
+value -0.348169 </span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## converged</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## initial 
+value -0.008415 </span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   2
+value -0.067954</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   3
+value -0.093028</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   4
+value -0.093418</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   5
+value -0.093900</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   6
+value -0.094110</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   7
+value -0.094959</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   8
+value -0.095439</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   9
+value -0.095728</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  10
+value -0.095935</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  11
+value -0.096327</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  12
+value -0.096756</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  13
+value -0.096984</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  14
+value -0.097065</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  15
+value -0.097085</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  16
+value -0.097088</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  17
+value -0.097090</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  18
+value -0.097095</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  19
+value -0.097114</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  20
+value -0.097151</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  21
+value -0.097158</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  22
+value -0.097160</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  23
+value -0.097160</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  24
+value -0.097163</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  25
+value -0.097163</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  26
+value -0.097163</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  27
+value -0.097164</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  28
+value -0.097164</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  29 value
+-0.097165</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  30
+value -0.097165</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  31
+value -0.097165</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  31
+value -0.097165</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## final 
+value -0.097165 </span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## converged</span></span></span></p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+background:#F8F8F8'><br clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection9>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";background:
+#F8F8F8'>&nbsp;</span></p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection10>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><img
+width=345 height=276 id="Picture 52"
+src="RauchKillerWhaleProject_files/image023.jpg"></span></p>
+
+<i><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:always'>
+</span></i>
+
+<p class=MsoNormal><i><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New"'># model 3</span></i></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>fit.iii &lt;-</span></span><span class=StringTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=KeywordTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>sarima</span></span><span class=NormalTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>((train), </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>p =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>2</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>d =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>0</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>q =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>1</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>P =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>1</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> , </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>D =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>1</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>Q =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>1</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>S =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>12</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>)</span></span></p>
+
+</div>
+
+<span class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New"'><br clear=all style='page-break-before:auto'>
+</span></span>
+
+<div class=WordSection11>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>## initial  value -0.041606 </span></span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   2
+value -0.047253</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   3
+value -0.142442</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   4
+value -0.153759</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   5
+value -0.160822</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   6
+value -0.163548</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   7
+value -0.164328</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   8
+value -0.164558</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   9
+value -0.164609</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  10
+value -0.164680</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  11
+value -0.164712</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  12
+value -0.164712</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  12
+value -0.164712</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  12
+value -0.164712</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## final 
+value -0.164712 </span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## converged</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## initial 
+value -0.036011 </span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   2
+value -0.041058</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   3
+value -0.084230</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   4
+value -0.091951</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   5
+value -0.095326</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   6
+value -0.096226</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   7
+value -0.097004</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   8
+value -0.098002</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter   9
+value -0.098407</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  10
+value -0.098612</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  11
+value -0.098744</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  12
+value -0.098875</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  13
+value -0.099023</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  14
+value -0.099202</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  15
+value -0.099220</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  16
+value -0.099225</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  17
+value -0.099228</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  18
+value -0.099230</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  19
+value -0.099233</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  20
+value -0.099235</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  21
+value -0.099235</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  22
+value -0.099235</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  23
+value -0.099235</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  24
+value -0.099235</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  25
+value -0.099236</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  26
+value -0.099236</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  27
+value -0.099236</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## iter  27
+value -0.099236</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## final 
+value -0.099236 </span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## converged</span></span></span></p>
+
+</div>
+
+<span style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection12>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><img
+width=364 height=292 id=Picture src="RauchKillerWhaleProject_files/image024.jpg"></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<i><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:always'>
+</span></i>
+
+<p class=MsoNormal><i><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><i><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>#code to
+obtain AICc values</span></i></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><i><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>fit.i</span></span><span class=OperatorTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>$</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>AICc</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>## [1] 2.475241</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>fit.ii</span></span><span class=OperatorTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>$</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>AICc </span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>## [1] 2.503961</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>fit.iii</span></span><span class=OperatorTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>$</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>AICc </span></span><span class=CommentTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'># lowest
+AICc</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>## [1] 2.471596</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></span></p>
+
+<p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:0in;
+margin-left:.5in;margin-bottom:.0001pt;text-indent:-.5in'><span
+class=VerbatimChar><i><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New"'># call fit to read coefficients</span></i></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&gt; fit.iii</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>$fit</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>Call:</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>arima(x = data, order = c(p, d, q), seasonal = list(order = c(P,
+D, Q), period = S), include.mean = F)</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>Coefficients:</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>          ar1     ar2     ma1    sar1     sma1   </span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>      -0.2097  0.2146  0.2475  0.1763  -0.7657  </span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>s.e.   0.3438  0.1178  0.3418  0.2455   0.2983    </span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>sigma^2 estimated as 0.7491:  log likelihood = -95.44,  aic =
+204.88</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";background:
+#F8F8F8'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:windowtext'># check invertibility </span></span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br>
+<span class=CommentTok><span style='font-family:"Courier New";color:windowtext'>#
+All roots (in red) should be outside of the unit circle; thus, both models are
+causal and invertible.</span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:windowtext'>#graphs used above in report</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br>
+<br>
+<span class=KeywordTok><span style='font-family:"Courier New"'>plot.roots</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(</span></span><span
+class=OtherTok><span style='font-family:"Courier New"'>NULL</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>,</span></span><span
+class=KeywordTok><span style='font-family:"Courier New"'>polyroot</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(</span></span><span
+class=KeywordTok><span style='font-family:"Courier New"'>c</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(</span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>1</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>,  </span></span><span
+class=FloatTok><span style='font-family:"Courier New"'>-0.2097</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>, </span></span><span
+class=FloatTok><span style='font-family:"Courier New"'>0.2146</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>)), </span></span><span
+class=DataTypeTok><span style='font-family:"Courier New"'>main=</span></span><span
+class=StringTok><span style='font-family:"Courier New"'>&quot;roots of ar
+part&quot;</span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=KeywordTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>plot.roots</span></span><span class=NormalTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>(</span></span><span
+class=OtherTok><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>NULL</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>,</span></span><span class=KeywordTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>polyroot</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>(</span></span><span class=KeywordTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>c</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>(</span></span><span class=DecValTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>1</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>, </span></span><span class=FloatTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>0.2475</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>)), </span></span><span class=DataTypeTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>main=</span></span><span
+class=StringTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&quot;roots of ma part&quot;</span></span><span class=NormalTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>)</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=KeywordTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>plot.roots</span></span><span class=NormalTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>(</span></span><span
+class=OtherTok><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>NULL</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>,</span></span><span class=KeywordTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>polyroot</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>(</span></span><span class=KeywordTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>c</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>(</span></span><span class=DecValTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>1</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>,  </span></span><span class=FloatTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>0.1763</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>)), </span></span><span class=DataTypeTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>main=</span></span><span
+class=StringTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&quot;roots of sar part&quot;</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>)</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=KeywordTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>plot.roots</span></span><span class=NormalTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>(</span></span><span
+class=OtherTok><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>NULL</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>,</span></span><span class=KeywordTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>polyroot</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>(</span></span><span class=KeywordTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>c</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>(</span></span><span class=DecValTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>1</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>,</span></span><span class=OperatorTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>-</span></span><span
+class=FloatTok><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>0.7657</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>)), </span></span><span class=DataTypeTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>main=</span></span><span
+class=StringTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&quot;roots of sma part&quot;</span></span><span
+class=NormalTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>)</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></span></p>
+
+<span class=CommentTok><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New"'><br clear=all style='page-break-before:always'>
+</span></span>
+
+<p class=MsoNormal><span class=CommentTok><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New"'>&nbsp;</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:windowtext'># check assumption that residuals are white
+noise</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br>
+<span class=NormalTok><span style='font-family:"Courier New"'>res =</span></span><span
+class=StringTok><span style='font-family:"Courier New"'> </span></span><span
+class=KeywordTok><span style='font-family:"Courier New"'>residuals</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(fit.iii</span></span><span
+class=OperatorTok><span style='font-family:"Courier New"'>$</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>fit)</span></span><br>
+<span class=KeywordTok><span style='font-family:"Courier New"'>mean</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(res)</span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>## [1] 0.0007956052</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=KeywordTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>var</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>(res)</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>## [1] 0.6314296</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:windowtext'># code for residual graphs used above</span></span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br>
+<span class=KeywordTok><span style='font-family:"Courier New"'>pacf</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(res,</span></span><span
+class=DataTypeTok><span style='font-family:"Courier New"'>main =</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'> </span></span><span
+class=StringTok><span style='font-family:"Courier New"'>&quot;Partial
+Autocorrelation&quot;</span></span><span class=NormalTok><span
+style='font-family:"Courier New"'>)</span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=KeywordTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>acf</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>(res,</span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>main =</span></span><span class=NormalTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=StringTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&quot;Autocorrelation&quot;</span></span><span class=NormalTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>)</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:windowtext'># Histogram</span></span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br>
+<span class=KeywordTok><span style='font-family:"Courier New"'>hist</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(res,</span></span><span
+class=DataTypeTok><span style='font-family:"Courier New"'>main =</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'> </span></span><span
+class=StringTok><span style='font-family:"Courier New"'>&quot;Histogram&quot;</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>)</span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:windowtext'># q-q plot</span></span><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'><br>
+<span class=KeywordTok><span style='font-family:"Courier New"'>qqnorm</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(res)</span></span><br>
+<span class=KeywordTok><span style='font-family:"Courier New"'>qqline</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(res,</span></span><span
+class=DataTypeTok><span style='font-family:"Courier New"'>col =</span></span><span
+class=StringTok><span style='font-family:"Courier New"'>&quot;blue&quot;</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>)</span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:windowtext'>## Test for independence of residuals</span></span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br>
+<span class=KeywordTok><span style='font-family:"Courier New"'>Box.test</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(res, </span></span><span
+class=DataTypeTok><span style='font-family:"Courier New"'>lag =</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>10</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-family:"Courier New"'>type =</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'> </span></span><span
+class=KeywordTok><span style='font-family:"Courier New"'>c</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(</span></span><span
+class=StringTok><span style='font-family:"Courier New"'>&quot;Box-Pierce&quot;</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>), </span></span><span
+class=DataTypeTok><span style='font-family:"Courier New"'>fitdf =</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>2</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>)</span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>## </span></span><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New"'><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>##  Box-Pierce
+test</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## </span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## data:  res</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## X-squared =
+6.6067, df = 8, p-value = 0.5796</span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=KeywordTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>Box.test</span></span><span class=NormalTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>(res, </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>lag =</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>10</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>type =</span></span><span class=NormalTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=KeywordTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>c</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>(</span></span><span
+class=StringTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&quot;Ljung-Box&quot;</span></span><span class=NormalTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>), </span></span><span
+class=DataTypeTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>fitdf =</span></span><span class=NormalTok><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>2</span></span><span class=NormalTok><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New"'>)</span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>## </span></span><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New"'><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>##  Box-Ljung
+test</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## </span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## data:  res</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## X-squared =
+7.3426, df = 8, p-value = 0.5002</span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=CommentTok><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:windowtext'># Test for normality of residuals</span></span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br>
+<span class=KeywordTok><span style='font-family:"Courier New"'>shapiro.test</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(res)</span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+class=VerbatimChar><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>## </span></span><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New"'><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>##  Shapiro-Wilk
+normality test</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## </span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## data:  res</span></span><br>
+<span class=VerbatimChar><span style='font-family:"Courier New"'>## W =
+0.93646, p-value = 0.06787</span></span><br>
+<br>
+</span></p>
+
+<span style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br>
+<span class=CommentTok><span style='font-family:"Courier New";color:windowtext'># 
+Use model to forecast, resulting graph used above in</span></span><span
+class=CommentTok><span style='font-family:"Courier New"'> </span></span><span
+class=CommentTok><span style='font-family:"Courier New";color:windowtext'>report</span></span><br>
+<span class=NormalTok><span style='font-family:"Courier New"'>pred.tr &lt;-</span></span><span
+class=StringTok><span style='font-family:"Courier New"'> </span></span><span
+class=KeywordTok><span style='font-family:"Courier New"'>sarima.for</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(train, </span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>18</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'> , </span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>2</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>, </span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>0</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>, </span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>1</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>, </span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>1</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>, </span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>1</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>, </span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>1</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>,</span></span><br>
+<span class=NormalTok><span style='font-family:"Courier New"'>                     
+</span></span><span class=DataTypeTok><span style='font-family:"Courier New"'>S
+=</span></span><span class=NormalTok><span style='font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>12</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-family:"Courier New"'>no.constant =</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'> </span></span><span
+class=OtherTok><span style='font-family:"Courier New"'>FALSE</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-family:"Courier New"'>plot.all =</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'> F)</span></span><br>
+<span class=KeywordTok><span style='font-family:"Courier New"'>points</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(</span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>85</span></span><span
+class=OperatorTok><span style='font-family:"Courier New"'>:</span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>96</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>,test,</span></span><span
+class=DataTypeTok><span style='font-family:"Courier New"'>col=</span></span><span
+class=StringTok><span style='font-family:"Courier New"'>&quot;blue&quot;</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>)</span></span><br>
+<span class=KeywordTok><span style='font-family:"Courier New"'>legend</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(</span></span><span
+class=StringTok><span style='font-family:"Courier New"'>&quot;topleft&quot;</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>, </span></span><span
+class=DataTypeTok><span style='font-family:"Courier New"'>pch =</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'> </span></span><span
+class=DecValTok><span style='font-family:"Courier New"'>1</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>,</span></span><span
+class=DataTypeTok><span style='font-family:"Courier New"'>col=</span></span><span
+class=KeywordTok><span style='font-family:"Courier New"'>c</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(</span></span><span
+class=StringTok><span style='font-family:"Courier New"'>&quot;red&quot;</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>,</span></span><span
+class=StringTok><span style='font-family:"Courier New"'>&quot;blue&quot;</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>),</span></span><br>
+<span class=NormalTok><span style='font-family:"Courier New"'>       </span></span><span
+class=DataTypeTok><span style='font-family:"Courier New"'>legend=</span></span><span
+class=KeywordTok><span style='font-family:"Courier New"'>c</span></span><span
+class=NormalTok><span style='font-family:"Courier New"'>(</span></span><span
+class=StringTok><span style='font-family:"Courier New"'>&quot;Forecast
+value&quot;</span></span><span class=NormalTok><span style='font-family:"Courier New"'>,
+</span></span><span class=StringTok><span style='font-family:"Courier New"'>&quot;True
+Value&quot;</span></span><span class=NormalTok><span style='font-family:"Courier New"'>))</span></span></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><i><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'># Use model
+to forecast on original data, resulting graph used above in report</span></i></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>whale2
+&lt;- whale.og[-c(61:72),2]</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>pred.tr
+&lt;- sarima.for(whale2 , 18 , 2, 0, 1, 1, 1, 1,</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>                     
+S = 12, no.constant = FALSE, plot.all = F)</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>&nbsp;</span></p>
+
+<i><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:always'>
+</span></i>
+
+<p class=MsoNormal><i><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><i><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New"'>## python
+code used in jupyter to extract/compile data</span></i></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:green'>import</span></b><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>
+csv</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:green'>import</span></b><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>
+requests</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>base_url
+</span><b><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:#AA22FF'>=</span></b><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:black'> </span><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:#BA2121'>&quot;https://hotline.whalemuseum.org/api.json?species=orca&amp;orca_type=southern%20resident&quot;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>csv_name
+</span><b><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:#AA22FF'>=</span></b><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:black'> </span><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:#BA2121'>'whale_data.csv'</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>page_num
+</span><b><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:#AA22FF'>=</span></b><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:black'> </span><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:#008800'>0</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:green'>with</span></b><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>
+</span><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:green'>open</span><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:black'>(csv_name, </span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:#BA2121'>'w'</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>)
+</span><b><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:green'>as</span></b><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:black'> csv_file:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>   
+</span><b><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:green'>while</span></b><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:black'> </span><b><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:green'>True</span></b><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>       
+response </span><b><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:#AA22FF'>=</span></b><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:black'> requests.get(</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:#BA2121'>f&quot;</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>{base_url}</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:#BA2121'>&amp;page=</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>{page_num}</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:#BA2121'>&amp;limit=1000&quot;</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>)</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>       
+json_data </span><b><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:#AA22FF'>=</span></b><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:black'> response.json()</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>       
+</span><b><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:green'>if</span></b><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:black'> </span><b><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:green'>not</span></b><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>
+json_data:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>           
+</span><b><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:green'>break</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;color:black'>&#8203;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>       
+page_num </span><b><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:#AA22FF'>+=</span></b><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:black'> </span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:#008800'>1</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>       
+</span><b><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:green'>if</span></b><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:black'> page_num </span><b><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:#AA22FF'>==</span></b><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>
+</span><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:#008800'>1</span><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:black'>:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>           
+writer </span><b><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:#AA22FF'>=</span></b><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:black'>
+csv.DictWriter(csv_file, fieldnames</span><b><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:#AA22FF'>=</span></b><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:green'>list</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>(json_data[</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:#008800'>0</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>]))</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>           
+writer.writeheader()</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>       
+writer.writerows(json_data)</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;color:black'>&#8203;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:green'>import</span></b><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>
+pandas </span><b><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:green'>as</span></b><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:black'> pd</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>df
+</span><b><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:#AA22FF'>=</span></b><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:black'> pd.read_csv(csv_name)</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:green'>for</span></b><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>
+time_col </span><b><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:green'>in</span></b><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:black'> (</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:#BA2121'>'sighted_at'</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>,
+</span><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:#BA2121'>'created_at'</span><span style='font-size:10.0pt;line-height:
+115%;font-family:"Courier New";color:black'>, </span><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New";color:#BA2121'>'updated_at'</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>):</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>   
+df[time_col] </span><b><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:#AA22FF'>=</span></b><span style='font-size:
+10.0pt;line-height:115%;font-family:"Courier New";color:black'>
+pd.to_datetime(df[time_col])</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;color:black'>&#8203;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>&nbsp;</span></p>
+
+<span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:green'><br clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:green'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:green'>print</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>(df.head())</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>                        
+id species  quantity                    description  \</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>0 
+5a84ba92686f74490f4e1700    orca       NaN  Imported by The Whale Museum.   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>1 
+5a84ba91686f74490f481700    orca       NaN  Imported by The Whale Museum.   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>2 
+5a84bbb7686f74490f821d00    orca       NaN  Imported by The Whale Museum.   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>3 
+5a84ba90686f74490f441700    orca       NaN  Imported by The Whale Museum.   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>4 
+5a84ba90686f74490f461700    orca       NaN  Imported by The Whale Museum.   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>                                                
+url  latitude  longitude  \</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>0 
+<a href="http://hotline.whalemuseum.org/sightings/5a84b..." target="_blank"><span
+style='color:#296EAA;text-decoration:none'>http://hotline.whalemuseum.org/sightings/5a84b...</span></a>    
+47.78    -122.44   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>1 
+<a href="http://hotline.whalemuseum.org/sightings/5a84b..." target="_blank"><span
+style='color:#296EAA;text-decoration:none'>http://hotline.whalemuseum.org/sightings/5a84b...</span></a>    
+47.62    -122.45   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>2 
+<a href="http://hotline.whalemuseum.org/sightings/5a84b..." target="_blank"><span
+style='color:#296EAA;text-decoration:none'>http://hotline.whalemuseum.org/sightings/5a84b...</span></a>    
+49.12    -123.47   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>3 
+<a href="http://hotline.whalemuseum.org/sightings/5a84b..." target="_blank"><span
+style='color:#296EAA;text-decoration:none'>http://hotline.whalemuseum.org/sightings/5a84b...</span></a>    
+47.50    -122.43   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>4 
+<a href="http://hotline.whalemuseum.org/sightings/5a84b..." target="_blank"><span
+style='color:#296EAA;text-decoration:none'>http://hotline.whalemuseum.org/sightings/5a84b...</span></a>    
+47.61    -122.44   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>                   
+location                sighted_at  \</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>0          
+Kingston, WA, US 2016-11-14 20:28:00+00:00   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>1 
+Bainbridge Island, WA, US 2016-11-14 18:09:00+00:00   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>2    
+Galiano Island, BC, CA 2016-10-26 22:08:00+00:00   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>3                       
+NaN 2016-10-24 22:40:00+00:00   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>4           
+Seattle, WA, US 2016-10-24 19:43:00+00:00  </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>                
+created_at                updated_at          orca_type  \</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>0
+2018-02-14 22:39:14+00:00 2018-02-14 22:39:14+00:00  southern resident   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>1
+2018-02-14 22:39:13+00:00 2018-02-14 22:39:13+00:00  southern resident   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>2
+2018-02-14 22:44:07+00:00 2018-02-14 22:44:07+00:00  southern resident   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>3
+2018-02-14 22:39:12+00:00 2018-02-14 22:39:12+00:00  southern resident   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>4
+2018-02-14 22:39:13+00:00 2018-02-14 22:39:13+00:00  southern resident   </span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:black'>whale </span><b><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:#AA22FF'>=</span></b><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>
+pd.read_csv(</span><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:#BA2121'>&quot;whale_data.csv&quot;</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>)
+# read file into pandas</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>whale.shape
+# check number of entries</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:#D84315'>Out[28]:</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>(16722,
+13)</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:black'>whale[</span><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:#BA2121'>'sighted_at'</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>]
+</span><b><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:#AA22FF'>=</span></b><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:black'> pd.to_datetime(whale[</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:#BA2121'>'sighted_at'</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>])</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>new_whale
+</span><b><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:#AA22FF'>=</span></b><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:black'> whale.set_index(</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:#BA2121'>'sighted_at'</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>).groupby(pd.Grouper(freq
+</span><b><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:#AA22FF'>=</span></b><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:#BA2121'>'M'</span><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:black'>)).agg(</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:#BA2121'>'count'</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>).reset_index()</span></p>
+
+<span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:black'><br clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>new_whale
+ <i># collection of sightings recorded for the whale museum</i></span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:#D84315'>Out[78]:</span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=803
+ style='width:481.65pt;border-collapse:collapse'>
+ <tr>
+  <td style='border:inset 1.0pt;border-top:solid #DDDDDD 1.0pt;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></b></p>
+  </td>
+  <td valign=top style='border-top:solid #DDDDDD 1.0pt;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>2008-01-31 00:00:00+00:00</span></p>
+  </td>
+  <td valign=top style='border-top:solid #DDDDDD 1.0pt;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>3</span></p>
+  </td>
+  <td valign=top style='border-top:solid #DDDDDD 1.0pt;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>3</span></p>
+  </td>
+  <td valign=top style='border-top:solid #DDDDDD 1.0pt;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:solid #DDDDDD 1.0pt;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>3</span></p>
+  </td>
+  <td valign=top style='border-top:solid #DDDDDD 1.0pt;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>3</span></p>
+  </td>
+  <td valign=top style='border-top:solid #DDDDDD 1.0pt;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>3</span></p>
+  </td>
+  <td valign=top style='border-top:solid #DDDDDD 1.0pt;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>3</span></p>
+  </td>
+  <td valign=top style='border-top:solid #DDDDDD 1.0pt;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>3</span></p>
+  </td>
+  <td valign=top style='border-top:solid #DDDDDD 1.0pt;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>3</span></p>
+  </td>
+  <td valign=top style='border-top:solid #DDDDDD 1.0pt;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>3</span></p>
+  </td>
+  <td valign=top style='border-top:solid #DDDDDD 1.0pt;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>3</span></p>
+  </td>
+  <td valign=top style='border-top:solid #DDDDDD 1.0pt;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>3</span></p>
+  </td>
+  <td valign=top style='border-top:solid #DDDDDD 1.0pt;border-left:none;
+  border-bottom:inset 1.0pt;border-right:inset 1.0pt;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>3</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border:inset 1.0pt;border-top:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>1</span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>2008-02-29 00:00:00+00:00</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border:inset 1.0pt;border-top:none;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>2</span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>2008-03-31 00:00:00+00:00</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border:inset 1.0pt;border-top:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>3</span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>2008-04-30 00:00:00+00:00</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border:inset 1.0pt;border-top:none;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>4</span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>2008-05-31 00:00:00+00:00</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>317</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>317</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>317</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>317</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>317</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>317</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>317</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>317</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>317</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>317</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>317</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>317</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border:inset 1.0pt;border-top:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>...</span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>...</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>...</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>...</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>...</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>...</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>...</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>...</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>...</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>...</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>...</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>...</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>...</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>...</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>...</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border:inset 1.0pt;border-top:none;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>102</span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>2016-07-31 00:00:00+00:00</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>532</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>532</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>532</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>532</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>532</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>532</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>412</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>532</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>532</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>532</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>494</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>532</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border:inset 1.0pt;border-top:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>103</span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>2016-08-31 00:00:00+00:00</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>300</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>300</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>300</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>300</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>300</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>300</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>266</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>300</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>300</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>300</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>264</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>300</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border:inset 1.0pt;border-top:none;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>104</span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>2016-09-30 00:00:00+00:00</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>432</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>432</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>432</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>432</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>432</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>432</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>374</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>432</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>432</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>432</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>328</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>432</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border:inset 1.0pt;border-top:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>105</span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>2016-10-31 00:00:00+00:00</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>50</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>50</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>50</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>50</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>50</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>50</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>36</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>50</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>50</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>50</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>38</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>50</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border:inset 1.0pt;border-top:none;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>106</span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>2016-11-30 00:00:00+00:00</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>4</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>4</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>4</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>4</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>4</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>4</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>4</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>4</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>4</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>4</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>4</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>4</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>107
+rows × 14 columns</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%;font-family:
+"Courier New";color:black'>new_whale[</span><span style='font-size:10.0pt;
+line-height:115%;font-family:"Courier New";color:#BA2121'>'month'</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>]
+</span><b><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:#AA22FF'>=</span></b><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:black'> new_whale.sighted_at.dt.strftime(</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:#BA2121'>'%Y-%m'</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>)</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>newnew_whale
+</span><b><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:#AA22FF'>=</span></b><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:black'> new_whale[[</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:#BA2121'>'species'</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>,
+</span><span style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+color:#BA2121'>'month'</span><span style='font-size:10.0pt;line-height:115%;
+font-family:"Courier New";color:black'>]]</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>newnew_whale.to_csv(</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:#BA2121'>'new_whale.csv'</span><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>)</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:black'>newnew_whale.head()</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:115%;font-family:"Courier New";color:#D84315'>Out[86]:</span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse'>
+ <thead>
+  <tr>
+   <td valign=bottom style='border:inset 1.0pt;border-bottom:solid #DDDDDD 1.0pt;
+   padding:2.75pt 10.9pt 2.75pt 2.75pt'></td>
+   <td valign=bottom style='border-top:inset 1.0pt;border-left:none;border-bottom:
+   solid #DDDDDD 1.0pt;border-right:inset 1.0pt;padding:2.75pt 10.9pt 2.75pt 2.75pt'>
+   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+   style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+   color:black'>species</span></b></p>
+   </td>
+   <td valign=bottom style='border-top:inset 1.0pt;border-left:none;border-bottom:
+   solid #DDDDDD 1.0pt;border-right:inset 1.0pt;padding:2.75pt 10.9pt 2.75pt 2.75pt'>
+   <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+   style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+   color:black'>month</span></b></p>
+   </td>
+  </tr>
+ </thead>
+ <tr>
+  <td style='border:inset 1.0pt;border-top:none;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>3</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>2008-01</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border:inset 1.0pt;border-top:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>1</span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>2008-02</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border:inset 1.0pt;border-top:none;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>2</span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>2008-03</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border:inset 1.0pt;border-top:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>3</span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>0</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>2008-04</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='border:inset 1.0pt;border-top:none;background:whitesmoke;
+  padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><b><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>4</span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>317</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:inset 1.0pt;
+  border-right:inset 1.0pt;background:whitesmoke;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+  style='font-size:10.0pt;line-height:115%;font-family:"Courier New";
+  color:black'>2008-05</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:115%'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>

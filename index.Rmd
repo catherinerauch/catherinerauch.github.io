@@ -6,19 +6,19 @@ title: "About Me"
 
 <br>
 
-##### I'm in my last year pursuing a Bachelor’s Degree in Statistics and Data Science and a minor in [Spatial Studies](http://spatial.ucsb.edu/academic-minor/) at the University of California at Santa Barbara (UCSB).  
+##### I'm a recent grad of the University of California at Santa Barbara (UCSB) with a Bachelor’s Degree in Statistics and Data Science and a minor in [Spatial Studies](http://spatial.ucsb.edu/academic-minor/).  
+
+##### Previous work in [spatial](https://catherinerauch.github.io/geog176A.html#previous-work) projects and other areas can be found [here](https://catherinerauch.github.io/projects.html)
 
 
 ##### [Currently](https://catherinerauch.github.io/geog176A.html#current-work), I am working on an analysis of Killer Whale Sighting Patterns.
 
-##### Previous work in [spatial](https://catherinerauch.github.io/geog176A.html#previous-work) projects and other areas can be found [here](https://catherinerauch.github.io/projects.html)
 
 ***
 
-In my free time I travel and like to take [photos](https://vsco.co/catttrauc/gallery).
+In my free time I explore the world and like to take [photos](https://vsco.co/kitcatzz/gallery). Born and raised in Northern California, I'm a big sports fan and religiously follow the San Jose Sharks. I can also be seen out and about on my bike or pushing the limits on the track. And I'm always looking to tailor my projects to my interests.
 
 >```{r, echo=FALSE, out.width="50%",out.height="20%",fig.cap="   ",fig.show='hold',fig.align='center'}
 knitr::include_graphics(c("img/OsakaCastle.jpg","img/JapaneseMaple.jpg"))
 ``` 
 
-Born and raised in Northern California, I'm a big sports fan and religiously follow the San Jose Sharks. But, I can also be spotted at Warriors and Giants games. 
