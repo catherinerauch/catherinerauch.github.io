@@ -6,7 +6,7 @@ title: "Projects"
 
 ><center> ## Time Series Analysis and Forecast of Southern Resident Killer Whale Sightings
 [Report](docs/RauchKillerWhaleProject.htm)
-```{r, echo=FALSE, out.width="45%",out.height="20%",fig.cap="   ",fig.show='hold',fig.align='left'}
+```{r, echo=FALSE, out.width="45%",out.height="20%",fig.cap="   ",fig.show='hold',fig.align='center'}
 knitr::include_graphics(c("img/killerwhales3.jpg", "img/whaleforecast.png"))
 ``` 
 </center>
@@ -17,7 +17,7 @@ The goal of this report was to compile sighting data of the SRKW's in the Salish
 
 ><center> ## Exploratory Analysis of Shark Tank Data
 [Report](docs/RauchSharkTankReport.html)
-```{r, echo=FALSE, out.width="49%",out.height="100%",fig.cap="   ",fig.show='hold',fig.align='left'}
+```{r, echo=FALSE, out.width="49%",out.height="100%",fig.cap="   ",fig.show='hold',fig.align='center'}
 knitr::include_graphics(c("img/visualization (12).png", "img/visualization (10).png"))
 ```
 </center>

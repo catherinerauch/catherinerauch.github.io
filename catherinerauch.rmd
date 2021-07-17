@@ -2,6 +2,6 @@
 title: ""
 output: html_document
 ---
-```{r, echo=FALSE, out.width="80%",out.height="80%",fig.cap="  ",fig.align='center'}
+```{r, echo=FALSE, out.width="80%",out.height="85%",fig.cap="  ",fig.align='center'}
 knitr::include_graphics("img/Screenshot 2021-07-17 150730.png", auto_pdf = TRUE, dpi = 500)
 ```

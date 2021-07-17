@@ -6,7 +6,7 @@ title: "About Me"
 
 <br>
 
-##### I'm a recent grad of the University of California at Santa Barbara (UCSB) with a Bachelor’s Degree in Statistics and Data Science and a minor in [Spatial Studies](http://spatial.ucsb.edu/academic-minor/).  
+##### I'm a recent graduate of the University of California at Santa Barbara (UCSB) with a Bachelor’s Degree in Statistics and Data Science and a minor in [Spatial Studies](http://spatial.ucsb.edu/academic-minor/).  
 
 ##### Previous work in [spatial](https://catherinerauch.github.io/geog176A.html#previous-work) projects and other areas can be found [here](https://catherinerauch.github.io/projects.html)
 
