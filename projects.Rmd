@@ -5,7 +5,7 @@ title: "Projects"
 ***
 
 ><center> ## Time Series Analysis and Forecast of Southern Resident Killer Whale Sightings
-[Report](docs/RauchKillerWhaleProject.htm)
+[Report](docs/Catherine Rauch - 174 final project.html)
 ```{r, echo=FALSE, out.width="45%",out.height="20%",fig.cap="   ",fig.show='hold',fig.align='center'}
 knitr::include_graphics(c("img/killerwhales3.jpg", "img/whaleforecast.png"))
 ``` 
@@ -27,7 +27,7 @@ This report uses 10 seasons of “Shark Tank” to examine the breakdown of pitc
 ***
 
 ><center> ## Regression Analysis of Sleep in Mammalian Species
-[Report](docs/RauchMammalProjectReport.html)
+[Report](docs/Rauch 126 Project.html)
 ```{r, echo=FALSE, out.width="75%",out.height="75%",fig.cap=" ",fig.show='hold',fig.align='center'}
 knitr::include_graphics(c("img/mammaplot.png"))
 ```
