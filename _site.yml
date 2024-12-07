@@ -3,15 +3,12 @@ output_dir: "."
 navbar:
   title: ""
   left:
-    - text: "Home"
-      icon: fa-home
-      href: index.html
-    - text: "GIS"
-      icon: fa-grav
-      href: geog176A.html
     - text: "Projects"
       icon: fa-folder-open
       href: projects.html
+    - text: "GIS"
+      icon: fa-grav
+      href: geog176A.html
     - text: " CV"
       icon: fa-info
       href: catherinerauch.html
@@ -21,7 +18,7 @@ navbar:
       href: https://github.com/catherinerauch
     - icon: fa-envelope 
       text: "Contact Me"
-      href: mailto:catarauch21@gmail.com
+      href: mailto:catherine@rauch.net
 output:
   html_document:
     theme: spacelab
