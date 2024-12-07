@@ -1,21 +1,47 @@
 ---
-title: "About Me"
+title: "Projects"
 ---
 
-`r library(icon)`
+***
 
-<br>
+><center> ## Time Series Analysis and Forecast of SRKWs Sightings
+[Report](docs/Catherine Rauch - 174 final project.html)
+```{r, echo=FALSE, out.width="45%",out.height="20%",fig.cap="   ",fig.show='hold',fig.align='center'}
+knitr::include_graphics(c("img/killerwhales3.jpg", "img/whaleforecast.png"))
+``` 
+</center>
 
-I'm a recent graduate of the University of California at Santa Barbara (UCSB) with a Bachelor’s Degree in Statistics and Data Science and a minor in [Spatial Studies](http://spatial.ucsb.edu/academic-minor/).  
-
-Previous work in [spatial](https://catherinerauch.github.io/geog176A.html#previous-work) projects and other areas can be found [here](https://catherinerauch.github.io/projects.html). Currently, I am working on an [analysis](https://catherinerauch.github.io/geog176A.html#current-work) of Killer Whale Sighting Patterns.
+The goal of this report was to compile sighting data of the Southern Resident Killer Whales in the Salish Sea, and to forecast future sightings. Raw data was compiled from [the Whale Museums' Hotline](https://hotline.whalemuseum.org/). A total of 16,722 southern resident observations were grouped by month from year 2008 to 2015. After appropriate transformation and differencing was applied, multiple SARIMA  models were fit and diagnostics preformed to choose the best. This model was then used to forecast the next 6 months of sightings.
 
 ***
->```{r, echo=FALSE, out.width="50%",out.height="20%",fig.cap="   ",fig.show='hold',fig.align='center'}
-knitr::include_graphics(c("img/2021-03-25 21_16_26.734-0700_2 (1).jpg", "img/2021-07-29-042631646_2 (2).jpg"))
-``` 
 
-In my free time I travel and like to take [photos](https://vsco.co/kitcatzz/gallery). Born and raised in Northern California, I'm a big sports fan and sacredly follow the San Jose Sharks. I can also be seen out and about on my bike or pushing the limits on the track.
+><center> ## Analysis of Shark Tank Data
+[Report](docs/RauchSharkTankReport.html)
+```{r, echo=FALSE, out.width="49%",out.height="100%",fig.cap="   ",fig.show='hold',fig.align='center'}
+knitr::include_graphics(c("img/visualization (12).png", "img/visualization (10).png"))
+```
+</center>
 
+This report uses 10 seasons of “Shark Tank” to examine the breakdown of pitches, how these changed over time,and how the famous millionaire Sharks spend their money. Data manipulation such as grouping and aggregating was done with Pandas and Numpy while visuals and regression was done with Altair. 
 
+***
 
+><center> ## Regression Analysis of Sleep in Mammalian Species
+[Report](docs/Rauch 126 Project.html)
+```{r, echo=FALSE, out.width="75%",out.height="75%",fig.cap=" ",fig.show='hold',fig.align='center'}
+knitr::include_graphics(c("img/mammaplot.png"))
+```
+</center>
+
+This project investigates the link between brain/body weight, life span, gestation time, time spent sleeping/dreaming, and predation/danger indices for 62 species of mammals. The raw data was cleaned and relationships were explored in a scatterplot matrix. While attempting to determine which variables were significant in predicting time spent dreaming, high influence and leverage points were found and multiple models were fit before selecting the best with AIC. To predict total time spent dreaming step-wise regression was preformed.
+
+***
+
+><center> ## Exploratory Analysis of San Jose Traffic Accidents
+[Report](docs/project-final-report (1) (1).html)
+```{r, echo=FALSE, out.width="49%",out.height="100%",fig.cap="   ",fig.show='hold',fig.align='center'}
+knitr::include_graphics(c("img/Screenshot 2021-07-17 161146.png","img/Screenshot 2021-07-17 161119.png"))
+```
+</center>
+
+This project explores traffic data analysis to investigate how external variables interact with traffic accidents and to identify a pattern or hotspot, within traffic accident distributions. This was done by examining traffic accident data from 2020 reported in San Jose, California.

@@ -11,26 +11,40 @@
 
 
 
-<title>About Me</title>
+<title>Projects</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -43,32 +57,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 
 
@@ -78,10 +68,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -98,40 +84,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 52px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h2 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h3 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h4 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h5 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
-.section h6 {
-  padding-top: 57px;
-  margin-top: -57px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -159,7 +121,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -171,7 +133,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -181,11 +143,28 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.parent().addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -197,13 +176,12 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -211,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -264,7 +235,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -274,20 +245,6 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">
-    <span class="fa fa-home"></span>
-     
-    Home
-  </a>
-</li>
-<li>
-  <a href="geog176A.html">
-    <span class="fa fa-grav"></span>
-     
-    GIS
-  </a>
-</li>
-<li>
   <a href="projects.html">
     <span class="fa fa-folder-open"></span>
      
@@ -311,7 +268,7 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="mailto:catarauch21@gmail.com">
+  <a href="mailto:catherine@rauch.net">
     <span class="fa fa-envelope"></span>
      
     Contact Me
@@ -322,27 +279,94 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
-<h1 class="title toc-ignore">About Me</h1>
+<h1 class="title toc-ignore">Projects</h1>
 
 </div>
 
 
-<p><br></p>
-<p>I’m a recent graduate of the University of California at Santa Barbara (UCSB) with a Bachelor’s Degree in Statistics and Data Science and a minor in <a href="http://spatial.ucsb.edu/academic-minor/">Spatial Studies</a>.</p>
-<p>Previous work in <a href="https://catherinerauch.github.io/geog176A.html#previous-work">spatial</a> projects and other areas can be found <a href="https://catherinerauch.github.io/projects.html">here</a>. Currently, I am working on an <a href="https://catherinerauch.github.io/geog176A.html#current-work">analysis</a> of Killer Whale Sighting Patterns.</p>
 <hr />
 <blockquote>
+<center>
+<h2 id="time-series-analysis-and-forecast-of-srkws-sightings">Time
+Series Analysis and Forecast of SRKWs Sightings</h2>
+<a
+href="docs/Catherine%20Rauch%20-%20174%20final%20project.html">Report</a>
 <div class="figure" style="text-align: center">
-<img src="img/2021-03-25%2021_16_26.734-0700_2%20(1).jpg" alt="   " width="50%" height="20%" /><img src="img/2021-07-29-042631646_2%20(2).jpg" alt="   " width="50%" height="20%" />
+<img src="img/killerwhales3.jpg" alt="   " width="45%" height="20%" /><img src="img/whaleforecast.png" alt="   " width="45%" height="20%" />
 <p class="caption">
 </p>
 </div>
+</center>
 </blockquote>
-<p>In my free time I travel and like to take <a href="https://vsco.co/kitcatzz/gallery">photos</a>. Born and raised in Northern California, I’m a big sports fan and sacredly follow the San Jose Sharks. I can also be seen out and about on my bike or pushing the limits on the track.</p>
+<p>The goal of this report was to compile sighting data of the Southern
+Resident Killer Whales in the Salish Sea, and to forecast future
+sightings. Raw data was compiled from <a
+href="https://hotline.whalemuseum.org/">the Whale Museums’ Hotline</a>.
+A total of 16,722 southern resident observations were grouped by month
+from year 2008 to 2015. After appropriate transformation and
+differencing was applied, multiple SARIMA models were fit and
+diagnostics preformed to choose the best. This model was then used to
+forecast the next 6 months of sightings.</p>
+<hr />
+<blockquote>
+<center>
+<h2 id="analysis-of-shark-tank-data">Analysis of Shark Tank Data</h2>
+<a href="docs/RauchSharkTankReport.html">Report</a>
+<div class="figure" style="text-align: center">
+<img src="img/visualization%20(12).png" alt="   " width="49%" height="100%" /><img src="img/visualization%20(10).png" alt="   " width="49%" height="100%" />
+<p class="caption">
+</p>
+</div>
+</center>
+</blockquote>
+<p>This report uses 10 seasons of “Shark Tank” to examine the breakdown
+of pitches, how these changed over time,and how the famous millionaire
+Sharks spend their money. Data manipulation such as grouping and
+aggregating was done with Pandas and Numpy while visuals and regression
+was done with Altair.</p>
+<hr />
+<blockquote>
+<center>
+<h2 id="regression-analysis-of-sleep-in-mammalian-species">Regression
+Analysis of Sleep in Mammalian Species</h2>
+<a href="docs/Rauch%20126%20Project.html">Report</a>
+<div class="figure" style="text-align: center">
+<img src="img/mammaplot.png" alt=" " width="75%" height="75%" />
+<p class="caption">
+</p>
+</div>
+</center>
+</blockquote>
+<p>This project investigates the link between brain/body weight, life
+span, gestation time, time spent sleeping/dreaming, and predation/danger
+indices for 62 species of mammals. The raw data was cleaned and
+relationships were explored in a scatterplot matrix. While attempting to
+determine which variables were significant in predicting time spent
+dreaming, high influence and leverage points were found and multiple
+models were fit before selecting the best with AIC. To predict total
+time spent dreaming step-wise regression was preformed.</p>
+<hr />
+<blockquote>
+<center>
+<h2 id="exploratory-analysis-of-san-jose-traffic-accidents">Exploratory
+Analysis of San Jose Traffic Accidents</h2>
+<a href="docs/project-final-report%20(1)%20(1).html">Report</a>
+<div class="figure" style="text-align: center">
+<img src="img/Screenshot%202021-07-17%20161146.png" alt="   " width="49%" height="100%" /><img src="img/Screenshot%202021-07-17%20161119.png" alt="   " width="49%" height="100%" />
+<p class="caption">
+</p>
+</div>
+</center>
+</blockquote>
+<p>This project explores traffic data analysis to investigate how
+external variables interact with traffic accidents and to identify a
+pattern or hotspot, within traffic accident distributions. This was done
+by examining traffic accident data from 2020 reported in San Jose,
+California.</p>
 
 
 
@@ -353,7 +377,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -371,7 +395,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
