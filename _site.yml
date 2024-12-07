@@ -6,9 +6,6 @@ navbar:
     - text: "Projects"
       icon: fa-folder-open
       href: projects.html
-    - text: "GIS"
-      icon: fa-grav
-      href: geog176A.html
     - text: " CV"
       icon: fa-info
       href: catherinerauch.html
