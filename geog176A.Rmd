@@ -57,7 +57,7 @@ knitr::include_graphics("img/lab4plot.png")
 
 > ## [Exploration of US city data](https://catherinerauch.github.io/geog-176A-labs/lab-03.html)
 ```{r, echo=FALSE, out.width="50%",out.height="40%",fig.cap="   ",fig.align='left'}
-knitr::include_graphics("img/CopyofUSthememap.jpg")
+knitr::include_graphics("img/CopyOfUSthememap.jpg")
 ```
 
 - Explored working with sf, sfc, and sfg features & objects
@@ -70,7 +70,7 @@ knitr::include_graphics("img/CopyofUSthememap.jpg")
 
 > ## [Analysis of COVID-19 data](https://catherinerauch.github.io/geog-176A-labs/lab-02.html)
 ```{r, echo=FALSE, out.width="40%",out.height="30%",fig.cap="  ",fig.align='left'}
-knitr::include_graphics("img/Copyofcovidplot.jpg")
+knitr::include_graphics("img/CopyOfcovidplot.jpg")
 ```
 
 - Data wrangling and visualization with real-time COVID-19 data
